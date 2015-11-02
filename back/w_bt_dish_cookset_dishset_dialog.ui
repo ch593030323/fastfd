@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>w_bt_dish_cookset_dishset_Dialog</class>
+ <widget class="QDialog" name="w_bt_dish_cookset_dishset_Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>716</width>
+    <height>423</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="lds_treeWidget" name="treeWidget">
+     <column>
+      <property name="text">
+       <string notr="true">1</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="lds_tableView" name="tableView"/>
+     </item>
+     <item>
+      <widget class="lds_toolbar" name="widget" native="true"/>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>lds_tableView</class>
+   <extends>QTableView</extends>
+   <header>lds_tableview.h</header>
+  </customwidget>
+  <customwidget>
+   <class>lds_toolbar</class>
+   <extends>QFrame</extends>
+   <header>lds_toolbar.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>lds_treeWidget</class>
+   <extends>QTreeWidget</extends>
+   <header>lds_treewidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

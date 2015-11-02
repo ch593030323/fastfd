@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>lds_datetimeEdit_pop</class>
+ <widget class="QWidget" name="lds_datetimeEdit_pop">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>488</width>
+    <height>369</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+QSpinBox,
+QTimeEdit,
+QDateEdit{
+	min-width:150px;
+	min-height:25px;
+	font:bold 15pt;
+	color:lightskyblue;
+}
+QSpinBox{
+	background:transparent;
+	color:transparent;
+}
+QSpinBox::down-button,
+QTimeEdit::down-button,
+QDateEdit::down-button{
+subcontrol-origin: margin;
+subcontrol-position: bottom left;
+min-width:16px;
+min-height:32px;
+border-image: url(:/image/widgets_pic/spinbox_left_arrow.png);
+}
+QSpinBox::down-button:pressed,
+QTimeEdit::down-button:pressed,
+QDateEdit::down-button:pressed{
+border-image: url(:/image/widgets_pic/spinbox_left_arrow_on.png);
+}
+QSpinBox::up-button,
+QTimeEdit::up-button,
+QDateEdit::up-button{
+subcontrol-origin: margin;
+subcontrol-position: bottom right;
+min-width:16px;
+min-height:32px;
+border-image: url(:/image/widgets_pic/spinbox_right_arrow.png);
+}
+
+
+
+QSpinBox::up-button:pressed,
+QTimeEdit::up-button:pressed,
+QDateEdits::up-button:pressed{
+border-image: url(:/image/widgets_pic/spinbox_right_arrow_on.png);
+}
+QWidget#lds_datetimeEdit_pop{
+	qproperty-bgcolor:slategrey;
+}
+
+QPushButton{
+	min-width:80;
+	background:snow;
+	border-radius:5px;
+	color:black;
+	font:bold 16pt;
+}
+QPushButton:pressed{
+	background-color: lightskyblue;
+	color:snow;
+
+}</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout" rowstretch="0,0,1,0,0,0">
+   <item row="0" column="1">
+    <widget class="QComboBox" name="comboBox_month">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>30</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0" colspan="5">
+    <widget class="QCalendarWidget" name="calendarWidget">
+     <property name="styleSheet">
+      <string notr="true">QAbstractItemView {selection-background-color: lightskyblue;font:bold;}
+QMenu { font:bold;}
+</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="4">
+    <widget class="QPushButton" name="pushButton_backtoday">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>今天</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="5">
+    <widget class="QLabel" name="label">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>2</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>2</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:lightskyblue;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QComboBox" name="comboBox_year">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>30</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0" rowspan="3" colspan="4">
+    <widget class="lds_timeEdit" name="timeEdit" native="true">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>60</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2" colspan="2">
+    <widget class="QDateEdit" name="dateEdit">
+     <property name="minimumSize">
+      <size>
+       <width>156</width>
+       <height>31</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="displayFormat">
+      <string>yyyy-MM-dd</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="4" rowspan="3">
+    <widget class="QPushButton" name="pushButton">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>确定</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>lds_timeEdit</class>
+   <extends>QWidget</extends>
+   <header>lds_timeedit.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

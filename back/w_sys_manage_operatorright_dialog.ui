@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>w_sys_manage_operatorright_Dialog</class>
+ <widget class="QDialog" name="w_sys_manage_operatorright_Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>902</width>
+    <height>639</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="lds_toolbar" name="widget" native="true"/>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout" stretch="2,3">
+     <item>
+      <widget class="lds_tableView" name="tableView">
+       <property name="maximumSize">
+        <size>
+         <width>400</width>
+         <height>16777215</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="lds_tableView" name="tableView_2"/>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>lds_toolbar</class>
+   <extends>QFrame</extends>
+   <header>lds_toolbar.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>lds_tableView</class>
+   <extends>QTableView</extends>
+   <header>lds_tableview.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

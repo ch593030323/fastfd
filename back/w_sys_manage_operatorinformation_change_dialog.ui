@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>w_sys_manage_operatorinformation_change_Dialog</class>
+ <widget class="QDialog" name="w_sys_manage_operatorinformation_change_Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>534</width>
+    <height>211</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="lds_toolbar" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>174</y>
+     <width>516</width>
+     <height>28</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="lds_CheckBox" name="checkBox_ch_flag">
+   <property name="geometry">
+    <rect>
+     <x>369</x>
+     <y>44</y>
+     <width>90</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>是否生效</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>43</y>
+     <width>60</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>操作密码</string>
+   </property>
+  </widget>
+  <widget class="lds_CheckBox" name="checkBox_ch_free_flag">
+   <property name="geometry">
+    <rect>
+     <x>273</x>
+     <y>44</y>
+     <width>90</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>免单控制</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>273</x>
+     <y>109</y>
+     <width>60</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>送菜金额</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_vch_password">
+   <property name="geometry">
+    <rect>
+     <x>121</x>
+     <y>43</y>
+     <width>146</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="lds_ComboBox" name="comboBox_ch_pre_mode">
+   <property name="geometry">
+    <rect>
+     <x>121</x>
+     <y>109</y>
+     <width>85</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>273</x>
+     <y>142</y>
+     <width>244</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:blue;</string>
+   </property>
+   <property name="text">
+    <string>注:新增操作员的操作密码同操作代码</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>60</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>操作代码</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_num_present">
+   <property name="geometry">
+    <rect>
+     <x>369</x>
+     <y>109</y>
+     <width>146</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>273</x>
+     <y>76</y>
+     <width>60</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>抹零限额</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_int_discount">
+   <property name="geometry">
+    <rect>
+     <x>121</x>
+     <y>76</y>
+     <width>146</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>100</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_vch_operid">
+   <property name="geometry">
+    <rect>
+     <x>121</x>
+     <y>10</y>
+     <width>146</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>273</x>
+     <y>10</y>
+     <width>30</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>姓名</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>109</y>
+     <width>60</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>送菜控制</string>
+   </property>
+  </widget>
+  <widget class="lds_CheckBox" name="checkBox_ch_waiter">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>142</y>
+     <width>105</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>是否服务员</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_vch_operator">
+   <property name="geometry">
+    <rect>
+     <x>369</x>
+     <y>10</y>
+     <width>146</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>76</y>
+     <width>83</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>折扣底限(%)</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_num_free">
+   <property name="geometry">
+    <rect>
+     <x>369</x>
+     <y>76</y>
+     <width>146</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>lds_toolbar</class>
+   <extends>QFrame</extends>
+   <header>lds_toolbar.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>lds_ComboBox</class>
+   <extends>QComboBox</extends>
+   <header>lds_combobox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>lds_CheckBox</class>
+   <extends>QCheckBox</extends>
+   <header>lds_checkbox.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

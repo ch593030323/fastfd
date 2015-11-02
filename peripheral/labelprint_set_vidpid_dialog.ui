@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>labelprint_set_vidpid_dialog</class>
+ <widget class="QDialog" name="labelprint_set_vidpid_dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>572</width>
+    <height>358</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>新增vidpid的打印方式，并列与端口文件打印；界面中起作用的主要是打印机类型和VIDPID，前者决定条码、字体等，后者决定打印端口，请慎重选择；新添加打印机时要明确打印类型，VIDPID可以在window下设备管理找到，以&amp;作为分隔。</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QTableView" name="tableView"/>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="uinormal_button" name="pushButton_add">
+         <property name="text">
+          <string>新增</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="uinormal_button" name="pushButton_del">
+         <property name="text">
+          <string>删除</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="uinormal_button" name="pushButton_test">
+         <property name="text">
+          <string>测试</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="uinormal_button" name="pushButton_app">
+         <property name="text">
+          <string>应用</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="uinormal_button" name="pushButton_exit">
+         <property name="text">
+          <string>退出</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>uinormal_button</class>
+   <extends>QPushButton</extends>
+   <header>uinormal_button.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

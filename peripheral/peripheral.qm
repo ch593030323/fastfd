@@ -1,0 +1,2037 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="zh_CN">
+<context>
+    <name>MainWindow</name>
+    <message>
+        <location filename="mainwindow.ui" line="14"/>
+        <source>MainWindow</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="25"/>
+        <source>小票打印</source>
+        <translation>Receipt Printing</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="37"/>
+        <location filename="mainwindow.ui" line="235"/>
+        <location filename="mainwindow.ui" line="307"/>
+        <source>测试</source>
+        <translation>Test</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="55"/>
+        <source>打印机类型</source>
+        <translation>Printer Type</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="83"/>
+        <source>串口</source>
+        <translation>Serial Port</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="95"/>
+        <location filename="mainwindow.ui" line="136"/>
+        <location filename="mainwindow.ui" line="205"/>
+        <source>端口</source>
+        <translation>Port</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="108"/>
+        <location filename="mainwindow.ui" line="264"/>
+        <source>波特率</source>
+        <translation>Baud Rate</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="124"/>
+        <source>USB</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="152"/>
+        <source>网口</source>
+        <translation>Ethernet Port</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="164"/>
+        <source>ip</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="177"/>
+        <source>port(9100)</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="193"/>
+        <source>VIDPID</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="223"/>
+        <source>计价秤</source>
+        <translation>Pricing Scale</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="251"/>
+        <source>计价秤类型</source>
+        <translation>Pricing Scale Type</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="277"/>
+        <source>回读数据</source>
+        <translation>Readback Data</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="292"/>
+        <source>客显</source>
+        <translation>Customer Display</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="310"/>
+        <source>pushbutton</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="326"/>
+        <source>客显类型:</source>
+        <translation>Customer Display Type:</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="339"/>
+        <source>端口:</source>
+        <translation>Port:</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="352"/>
+        <source>显示内容</source>
+        <translation>Display Content</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="362"/>
+        <source>-12.6</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="369"/>
+        <source>客显启动内容:</source>
+        <translation>Customer Display Starting Content:</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="379"/>
+        <source>welcome</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="388"/>
+        <source>读卡器</source>
+        <translation>Reader</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="400"/>
+        <source>蜂鸣</source>
+        <translation>Beep</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="406"/>
+        <location filename="mainwindow.ui" line="418"/>
+        <location filename="mainwindow.cpp" line="198"/>
+        <source>条码秤</source>
+        <translation>Barcode Scale</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="424"/>
+        <location filename="mainwindow.ui" line="436"/>
+        <location filename="mainwindow.cpp" line="217"/>
+        <source>条码打印机</source>
+        <translation>Barcode Printer</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="445"/>
+        <source>退出</source>
+        <translation>Exit</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="135"/>
+        <location filename="mainwindow.cpp" line="140"/>
+        <source>小票打印错误</source>
+        <translation>Receipt Printing Error</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="140"/>
+        <source>没有任何端口类型被选中</source>
+        <translation>Port type is not selected</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="154"/>
+        <source>消息提示</source>
+        <translation>Message Tip</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="169"/>
+        <location filename="mainwindow.cpp" line="173"/>
+        <source>客显错误</source>
+        <translation>Customer Display Error</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="205"/>
+        <source>打印次数</source>
+        <translation>Print Times</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="206"/>
+        <source>品名</source>
+        <translation>Product Name</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="207"/>
+        <source>品码</source>
+        <translation>Product Code</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="208"/>
+        <source>价格</source>
+        <translation>Price</translation>
+    </message>
+</context>
+<context>
+    <name>Printer_POS_NET</name>
+    <message>
+        <location filename="printer_pos_net.cpp" line="25"/>
+        <source>检测到使用ups,供电暂时不打印小票!</source>
+        <translation>در وضعیت کار با باتری اجازه صدور فاکتور وجود ندارد</translation>
+    </message>
+    <message>
+        <location filename="printer_pos_net.cpp" line="122"/>
+        <source>格式错误</source>
+        <translation>خطا در فرمت</translation>
+    </message>
+</context>
+<context>
+    <name>Printer_POS_SERIAL</name>
+    <message>
+        <location filename="printer_pos_serial.cpp" line="64"/>
+        <source>设备打开失败.没有权限!</source>
+        <translation>خطا در استفاده از دستگاه،مجاز به استفاده نیستید</translation>
+    </message>
+    <message>
+        <location filename="printer_pos_serial.cpp" line="97"/>
+        <source>检测到使用ups,供电暂时不打印小票!</source>
+        <translation>در وضعیت کار با باتری اجازه صدور فاکتور وجود ندارد</translation>
+    </message>
+</context>
+<context>
+    <name>Printer_POS_VIDPID</name>
+    <message>
+        <location filename="printer_pos_vidpid.cpp" line="49"/>
+        <source>路径错误</source>
+        <translation>مسیر اشتباه است</translation>
+    </message>
+</context>
+<context>
+    <name>QDialogButtonBox</name>
+    <message>
+        <location filename="uinormal_message.cpp" line="24"/>
+        <source>OK</source>
+        <translation>تایید</translation>
+    </message>
+</context>
+<context>
+    <name>QObject</name>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="37"/>
+        <source>暂停</source>
+        <translation>توقف</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="60"/>
+        <location filename="barscale_main_dialog.cpp" line="129"/>
+        <location filename="barscale_main_dialog.cpp" line="194"/>
+        <location filename="barscale_main_dialog.cpp" line="287"/>
+        <location filename="barscale_main_dialog.cpp" line="356"/>
+        <location filename="barscale_main_dialog.cpp" line="424"/>
+        <location filename="barscale_main_dialog.cpp" line="483"/>
+        <location filename="barscale_main_dialog.cpp" line="549"/>
+        <location filename="barscale_main_dialog.cpp" line="646"/>
+        <source>连接成功</source>
+        <translation>ارتباط با موفقیت انجام شد</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="61"/>
+        <location filename="barscale_main_dialog.cpp" line="130"/>
+        <location filename="barscale_main_dialog.cpp" line="195"/>
+        <location filename="barscale_main_dialog.cpp" line="288"/>
+        <location filename="barscale_main_dialog.cpp" line="357"/>
+        <location filename="barscale_main_dialog.cpp" line="425"/>
+        <location filename="barscale_main_dialog.cpp" line="484"/>
+        <location filename="barscale_main_dialog.cpp" line="550"/>
+        <location filename="barscale_main_dialog.cpp" line="647"/>
+        <source>%1</source>
+        <translation>%1</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="68"/>
+        <location filename="barscale_main_dialog.cpp" line="137"/>
+        <location filename="barscale_main_dialog.cpp" line="202"/>
+        <location filename="barscale_main_dialog.cpp" line="295"/>
+        <location filename="barscale_main_dialog.cpp" line="364"/>
+        <location filename="barscale_main_dialog.cpp" line="432"/>
+        <location filename="barscale_main_dialog.cpp" line="491"/>
+        <location filename="barscale_main_dialog.cpp" line="587"/>
+        <location filename="barscale_main_dialog.cpp" line="654"/>
+        <source>传输中[%1]...</source>
+        <translation>در حال انتقال[1%]</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="106"/>
+        <location filename="barscale_main_dialog.cpp" line="172"/>
+        <location filename="barscale_main_dialog.cpp" line="260"/>
+        <location filename="barscale_main_dialog.cpp" line="334"/>
+        <location filename="barscale_main_dialog.cpp" line="397"/>
+        <location filename="barscale_main_dialog.cpp" line="461"/>
+        <location filename="barscale_main_dialog.cpp" line="520"/>
+        <location filename="barscale_main_dialog.cpp" line="622"/>
+        <location filename="barscale_main_dialog.cpp" line="683"/>
+        <source>传输成功</source>
+        <translation>انتقال با موفقیت انجام شد</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="108"/>
+        <location filename="barscale_main_dialog.cpp" line="174"/>
+        <location filename="barscale_main_dialog.cpp" line="262"/>
+        <location filename="barscale_main_dialog.cpp" line="336"/>
+        <location filename="barscale_main_dialog.cpp" line="399"/>
+        <location filename="barscale_main_dialog.cpp" line="463"/>
+        <location filename="barscale_main_dialog.cpp" line="522"/>
+        <location filename="barscale_main_dialog.cpp" line="624"/>
+        <location filename="barscale_main_dialog.cpp" line="685"/>
+        <source>传输失败</source>
+        <translation>خطا در انتقال</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="111"/>
+        <location filename="barscale_main_dialog.cpp" line="177"/>
+        <location filename="barscale_main_dialog.cpp" line="265"/>
+        <location filename="barscale_main_dialog.cpp" line="339"/>
+        <location filename="barscale_main_dialog.cpp" line="402"/>
+        <location filename="barscale_main_dialog.cpp" line="466"/>
+        <location filename="barscale_main_dialog.cpp" line="525"/>
+        <location filename="barscale_main_dialog.cpp" line="627"/>
+        <location filename="barscale_main_dialog.cpp" line="688"/>
+        <source>连接失败</source>
+        <translation>خطا در ارتباط</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="704"/>
+        <source>完成</source>
+        <translation>پایان</translation>
+    </message>
+    <message>
+        <location filename="commonheader.cpp" line="41"/>
+        <source>POSTEK Q8/200</source>
+        <translation>POSTEK Q8/200</translation>
+    </message>
+    <message>
+        <location filename="commonheader.cpp" line="41"/>
+        <source>TSC TTP-244 PLUS</source>
+        <translation>TSC TTP-244 PLUS</translation>
+    </message>
+    <message>
+        <location filename="commonheader.cpp" line="42"/>
+        <source>SC2100(商超专用)</source>
+        <translation>SC2100 (Exclusive Use for SC-POS)</translation>
+    </message>
+    <message>
+        <location filename="commonheader.cpp" line="42"/>
+        <source>ARGOX CP-2140</source>
+        <translation>ARGOX CP-2140</translation>
+    </message>
+    <message>
+        <location filename="commonheader.cpp" line="43"/>
+        <source>佳博GP-3120TN</source>
+        <translation>Jia Bo GP-3120TN</translation>
+    </message>
+    <message>
+        <location filename="commonheader.cpp" line="44"/>
+        <source>佳博GP-3150TIN</source>
+        <translation>Jia Bo GP-3150TIN</translation>
+    </message>
+    <message>
+        <location filename="commonheader.cpp" line="45"/>
+        <source>佳博GP-2120TF</source>
+        <translation>Jia Bo GP-2120TF</translation>
+    </message>
+    <message>
+        <location filename="commonheader.cpp" line="58"/>
+        <location filename="commonheader.cpp" line="120"/>
+        <source>USB</source>
+        <translation>USB</translation>
+    </message>
+    <message>
+        <location filename="commonheader.cpp" line="58"/>
+        <location filename="commonheader.cpp" line="120"/>
+        <source>串口</source>
+        <translation>درگاه سریال</translation>
+    </message>
+    <message>
+        <location filename="commonheader.cpp" line="58"/>
+        <location filename="commonheader.cpp" line="120"/>
+        <source>网口</source>
+        <translation>درگاه اترنت</translation>
+    </message>
+    <message>
+        <location filename="commonheader.cpp" line="84"/>
+        <source>58mm热敏</source>
+        <translation>پرینتر حرارتی 58م.م</translation>
+    </message>
+    <message>
+        <location filename="commonheader.cpp" line="84"/>
+        <source>80mm热敏</source>
+        <translation>پرینتر حرارتی 80م.م</translation>
+    </message>
+    <message>
+        <location filename="commonheader.cpp" line="84"/>
+        <source>KF58</source>
+        <translation>KF58</translation>
+    </message>
+    <message>
+        <location filename="commonheader.cpp" line="84"/>
+        <source>MINI58</source>
+        <translation>MINI58</translation>
+    </message>
+    <message>
+        <location filename="commonheader.cpp" line="94"/>
+        <source>凯丰(商超专用)</source>
+        <translation>Kai Feng (Exclusive Use for SC-POS)</translation>
+    </message>
+    <message>
+        <location filename="commonheader.cpp" line="95"/>
+        <source>凯士PR PLUS</source>
+        <translation>Kai Shi PR PLUS</translation>
+    </message>
+    <message>
+        <location filename="commonheader.cpp" line="96"/>
+        <source>KF-PC秤</source>
+        <translation>KF-PC Scale</translation>
+    </message>
+    <message>
+        <location filename="commonheader.cpp" line="97"/>
+        <source>顶尖PBX</source>
+        <translation>Ding Jian PBX</translation>
+    </message>
+    <message>
+        <location filename="commonheader.cpp" line="98"/>
+        <source>大华ASC-A</source>
+        <translation>Da Hua ASC-A</translation>
+    </message>
+    <message>
+        <location filename="commonheader.cpp" line="99"/>
+        <source>顶尖PS1X</source>
+        <translation>Ding Jian PS1X</translation>
+    </message>
+    <message>
+        <location filename="commonheader.cpp" line="100"/>
+        <source>风华电子称</source>
+        <translation>Feng Hua Electronic Scale</translation>
+    </message>
+    <message>
+        <location filename="commonheader.cpp" line="129"/>
+        <location filename="electronicscale_dahua.cpp" line="227"/>
+        <source>上海大华 TM</source>
+        <translation>Shanghai Dahua TM</translation>
+    </message>
+    <message>
+        <location filename="commonheader.cpp" line="129"/>
+        <location filename="electronicscale_cas.cpp" line="205"/>
+        <source>上海凯士 CL5200</source>
+        <translation>Shanghai Kai Shi CL5200</translation>
+    </message>
+    <message>
+        <location filename="commonheader.cpp" line="130"/>
+        <location filename="electronicscale_ysheng.cpp" line="184"/>
+        <source>上海精涵友声 TM</source>
+        <translation>Shanghai Jinghan Yousheng TM</translation>
+    </message>
+    <message>
+        <location filename="commonheader.cpp" line="130"/>
+        <location filename="electronicscale_djian.cpp" line="15"/>
+        <source>厦门顶尖LS2CX</source>
+        <translation>Xiamen Ding Jian LS2CX</translation>
+    </message>
+    <message>
+        <location filename="commonheader.cpp" line="131"/>
+        <location filename="electronicscale_djian.cpp" line="15"/>
+        <source>凯丰条码秤</source>
+        <translation>Kai Feng Barcode Scale</translation>
+    </message>
+    <message>
+        <location filename="electronicscale_cas.cpp" line="141"/>
+        <location filename="electronicscale_dahua.cpp" line="156"/>
+        <location filename="electronicscale_djian.cpp" line="23"/>
+        <source>称重</source>
+        <translation>وزن</translation>
+    </message>
+    <message>
+        <location filename="electronicscale_cas.cpp" line="142"/>
+        <source>数量</source>
+        <translation>تعداد</translation>
+    </message>
+    <message>
+        <location filename="electronicscale_cas.cpp" line="143"/>
+        <source>个</source>
+        <translation>تعداد</translation>
+    </message>
+    <message>
+        <location filename="electronicscale_cas.cpp" line="153"/>
+        <source>DDIIIIIPPPPPC</source>
+        <translation>DDIIIIIPPPPPC</translation>
+    </message>
+    <message>
+        <location filename="electronicscale_cas.cpp" line="155"/>
+        <source>DDIIIIIPPPPPCUUUUU</source>
+        <translation>DDIIIIIPPPPPCUUUUU</translation>
+    </message>
+    <message>
+        <location filename="electronicscale_cas.cpp" line="156"/>
+        <source>DDIIIIIPPPPPCWWWWW</source>
+        <translation>DDIIIIIPPPPPCWWWWW</translation>
+    </message>
+    <message>
+        <location filename="electronicscale_dahua.cpp" line="157"/>
+        <location filename="electronicscale_ysheng.cpp" line="136"/>
+        <source>计件</source>
+        <translation>عدد</translation>
+    </message>
+    <message>
+        <location filename="electronicscale_dahua.cpp" line="158"/>
+        <source>定重</source>
+        <translation>وزن معین</translation>
+    </message>
+    <message>
+        <location filename="electronicscale_dahua.cpp" line="167"/>
+        <source>FFWWWWWEEEEEC</source>
+        <translation>FFWWWWWEEEEEC</translation>
+    </message>
+    <message>
+        <location filename="electronicscale_dahua.cpp" line="168"/>
+        <source>FFWWWWWNNNNNC</source>
+        <translation>FFWWWWWNNNNNC</translation>
+    </message>
+    <message>
+        <location filename="electronicscale_dahua.cpp" line="169"/>
+        <source>FFWWWWWEEEEENNNNNC</source>
+        <translation>FFWWWWWEEEEENNNNNC</translation>
+    </message>
+    <message>
+        <location filename="electronicscale_dahua.cpp" line="170"/>
+        <source>FFWWWWWNNNNNEEEEEC</source>
+        <translation>FFWWWWWNNNNNEEEEEC</translation>
+    </message>
+    <message>
+        <location filename="electronicscale_djian.cpp" line="24"/>
+        <source>定价</source>
+        <translation>قیمت معین</translation>
+    </message>
+    <message>
+        <location filename="electronicscale_djian.cpp" line="25"/>
+        <source>定重定价</source>
+        <translation>قیمت و وزن معین</translation>
+    </message>
+    <message>
+        <location filename="electronicscale_djian.cpp" line="34"/>
+        <source>前缀 + 店内码 + 金额</source>
+        <translation>پیشوند+کد فروشگاهی+مبلغ کل</translation>
+    </message>
+    <message>
+        <location filename="electronicscale_djian.cpp" line="35"/>
+        <source>前缀 + 店内码 + 重量</source>
+        <translation>پیشوند+کد فروشگاهی+وزن</translation>
+    </message>
+    <message>
+        <location filename="electronicscale_djian.cpp" line="36"/>
+        <source>前缀 + 店内码 + 单价</source>
+        <translation>پیشوند+کد فروشگاهی+قیمت واحد</translation>
+    </message>
+    <message>
+        <location filename="electronicscale_djian.cpp" line="37"/>
+        <source>前缀 + 店内码</source>
+        <translation>پیشوند+کد فروشگاهی</translation>
+    </message>
+    <message>
+        <location filename="electronicscale_ysheng.cpp" line="135"/>
+        <source>计重</source>
+        <translation>وزن</translation>
+    </message>
+    <message>
+        <location filename="electronicscale_ysheng.cpp" line="146"/>
+        <source>BBEEEEELLLLLC</source>
+        <translation>BBEEEEELLLLLC</translation>
+    </message>
+    <message>
+        <location filename="s_commands.cpp" line="67"/>
+        <source>Add %1</source>
+        <translation>اضافه کردن 1%</translation>
+    </message>
+    <message>
+        <location filename="s_commands.cpp" line="78"/>
+        <source>Remove %1</source>
+        <translation>حذف 1%</translation>
+    </message>
+    <message>
+        <location filename="s_commands.cpp" line="102"/>
+        <source>Set %1&apos;s color</source>
+        <translation>انتخاب رنگ برای 1%</translation>
+    </message>
+    <message>
+        <location filename="s_commands.cpp" line="146"/>
+        <source>Change %1&apos;s geometry</source>
+        <translation>تغییر شکل 1%</translation>
+    </message>
+</context>
+<context>
+    <name>QextSerialPort</name>
+    <message>
+        <location filename="qextserialport/qextserialport.cpp" line="718"/>
+        <source>No Error has occurred</source>
+        <translation>خطایی رخ نداده است</translation>
+    </message>
+    <message>
+        <location filename="qextserialport/qextserialport.cpp" line="720"/>
+        <source>Invalid file descriptor (port was not opened correctly)</source>
+        <translation>توصیفگر قایل معتبر نمی باشد.(درگاه درست باز نشده است)</translation>
+    </message>
+    <message>
+        <location filename="qextserialport/qextserialport.cpp" line="722"/>
+        <source>Unable to allocate memory tables (POSIX)</source>
+        <translation>قادر به تخصیص خانه های حافظه نمی باشد</translation>
+    </message>
+    <message>
+        <location filename="qextserialport/qextserialport.cpp" line="724"/>
+        <source>Caught a non-blocked signal (POSIX)</source>
+        <translation>Caught a non-blocked signal (POSIX)</translation>
+    </message>
+    <message>
+        <location filename="qextserialport/qextserialport.cpp" line="726"/>
+        <source>Operation timed out (POSIX)</source>
+        <translation>زمان عملیات به پایان رسید(POSIX)</translation>
+    </message>
+    <message>
+        <location filename="qextserialport/qextserialport.cpp" line="728"/>
+        <source>The file opened by the port is not a valid device</source>
+        <translation>The file opened by the port is not a valid device</translation>
+    </message>
+    <message>
+        <location filename="qextserialport/qextserialport.cpp" line="730"/>
+        <source>The port detected a break condition</source>
+        <translation>The port detected a break condition</translation>
+    </message>
+    <message>
+        <location filename="qextserialport/qextserialport.cpp" line="732"/>
+        <source>The port detected a framing error (usually caused by incorrect baud rate settings)</source>
+        <translation>The port detected a framing error (usually caused by incorrect baud rate settings)</translation>
+    </message>
+    <message>
+        <location filename="qextserialport/qextserialport.cpp" line="734"/>
+        <source>There was an I/O error while communicating with the port</source>
+        <translation>There was an I/O error while communicating with the port</translation>
+    </message>
+    <message>
+        <location filename="qextserialport/qextserialport.cpp" line="736"/>
+        <source>Character buffer overrun</source>
+        <translation>Character buffer overrun</translation>
+    </message>
+    <message>
+        <location filename="qextserialport/qextserialport.cpp" line="738"/>
+        <source>Receive buffer overflow</source>
+        <translation>Receive buffer overflow</translation>
+    </message>
+    <message>
+        <location filename="qextserialport/qextserialport.cpp" line="740"/>
+        <source>The port detected a parity error in the received data</source>
+        <translation> The port detected a parity error in the received data</translation>
+    </message>
+    <message>
+        <location filename="qextserialport/qextserialport.cpp" line="742"/>
+        <source>Transmit buffer overflow</source>
+        <translation>General read operation failure</translation>
+    </message>
+    <message>
+        <location filename="qextserialport/qextserialport.cpp" line="744"/>
+        <source>General read operation failure</source>
+        <translation>General read operation failure</translation>
+    </message>
+    <message>
+        <location filename="qextserialport/qextserialport.cpp" line="746"/>
+        <source>General write operation failure</source>
+        <translation>General write operation failure</translation>
+    </message>
+    <message>
+        <location filename="qextserialport/qextserialport.cpp" line="748"/>
+        <source>The %1 file doesn&apos;t exists</source>
+        <translation>فایل 1% وجود ندارد</translation>
+    </message>
+    <message>
+        <location filename="qextserialport/qextserialport.cpp" line="750"/>
+        <source>Permission denied</source>
+        <translation>اجازه دسترسی ندارید</translation>
+    </message>
+    <message>
+        <location filename="qextserialport/qextserialport.cpp" line="752"/>
+        <source>Device is already locked</source>
+        <translation>دستگاه قفل شده است</translation>
+    </message>
+    <message>
+        <location filename="qextserialport/qextserialport.cpp" line="754"/>
+        <source>Unknown error: %1</source>
+        <translation>خطای ناشناخته : 1%</translation>
+    </message>
+</context>
+<context>
+    <name>Reader_RF</name>
+    <message>
+        <location filename="reader_rf.cpp" line="66"/>
+        <source>函数调用成功</source>
+        <translation> عملیات با موفقیت انجام شد</translation>
+    </message>
+    <message>
+        <location filename="reader_rf.cpp" line="66"/>
+        <source>在操作区域内无卡</source>
+        <translation>کارت در محفظه وجود ندارد</translation>
+    </message>
+    <message>
+        <location filename="reader_rf.cpp" line="67"/>
+        <source>验证不成功</source>
+        <translation> خطا در بررسی کردن</translation>
+    </message>
+    <message>
+        <location filename="reader_rf.cpp" line="67"/>
+        <source>通讯错误</source>
+        <translation>خطا در برقراری ارتباط</translation>
+    </message>
+    <message>
+        <location filename="reader_rf.cpp" line="67"/>
+        <source>读系列号错误</source>
+        <translation>خطا در خواندن شماره سریال</translation>
+    </message>
+    <message>
+        <location filename="reader_rf.cpp" line="67"/>
+        <source>卡片没有通过验证</source>
+        <translation> کارت معتبر نمی باشد</translation>
+    </message>
+    <message>
+        <location filename="reader_rf.cpp" line="104"/>
+        <location filename="reader_rf.cpp" line="209"/>
+        <source>写卡长度必须不能大于16!</source>
+        <translation> طول نوشتن کارت نمی تواند بیشتر از 16 کاراکتر باشد</translation>
+    </message>
+    <message>
+        <location filename="reader_rf.cpp" line="168"/>
+        <location filename="reader_rf.cpp" line="282"/>
+        <location filename="reader_rf.cpp" line="368"/>
+        <source>密码错误</source>
+        <translation>رمز عبور معتبر نمی باشد</translation>
+    </message>
+    <message>
+        <location filename="reader_rf.cpp" line="422"/>
+        <location filename="reader_rf.cpp" line="445"/>
+        <source>设置密码错误，长度必须为12位!</source>
+        <translation>خطا در رمز عبور،طول رمز عبور باید 12 کاراکتر باشد</translation>
+    </message>
+</context>
+<context>
+    <name>S_MainWindow</name>
+    <message>
+        <location filename="s_mainwindow.cpp" line="116"/>
+        <source>x:</source>
+        <translation>X:</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.cpp" line="120"/>
+        <source>y:</source>
+        <translation>Y:</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.cpp" line="124"/>
+        <source>宽度:</source>
+        <translation>طول:</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.cpp" line="128"/>
+        <source>高度:</source>
+        <translation>عرض:</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.cpp" line="132"/>
+        <source>字体大小:</source>
+        <translation>سایز کاراکتر:</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.cpp" line="192"/>
+        <location filename="s_mainwindow.cpp" line="309"/>
+        <source>File error</source>
+        <translation>خطا در فایل</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.cpp" line="193"/>
+        <location filename="s_mainwindow.cpp" line="310"/>
+        <source>Failed to open
+%1</source>
+        <translation>خطا در باز کردن 1%</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.cpp" line="201"/>
+        <source>Parse error</source>
+        <translation> خطا در جدا کردن</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.cpp" line="202"/>
+        <source>Failed to parse
+%1</source>
+        <translation> خطا در جدا کردن 1%</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.cpp" line="216"/>
+        <source>Unnamed</source>
+        <translation> بدون نام</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.cpp" line="335"/>
+        <source>Unsaved changes</source>
+        <translation>تغییرات ذخیره نشده است</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.cpp" line="336"/>
+        <source>Would you like to save this document?</source>
+        <translation>آیا می خواهید این سند را ذخیره نمایید؟</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.cpp" line="337"/>
+        <source>Yes</source>
+        <translation>بلی</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.cpp" line="337"/>
+        <source>No</source>
+        <translation>خیر</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.cpp" line="360"/>
+        <source>打印内容</source>
+        <translation>چاپ محتوا</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.cpp" line="445"/>
+        <source>Add snowman</source>
+        <translation>Add snowman</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.cpp" line="463"/>
+        <source>Add robot</source>
+        <translation>Add robot</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.cpp" line="478"/>
+        <source>About Undo</source>
+        <translation>بازگشت به حالت قبل</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.cpp" line="478"/>
+        <source>The Undo demonstration shows how to use the Qt Undo framework.</source>
+        <translation>The Undo demonstration shows how to use the Qt Undo framework.</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.cpp" line="483"/>
+        <source>About Qt</source>
+        <translation>درباره Qt</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.cpp" line="598"/>
+        <source>打印二维码</source>
+        <translation>چاپ بارکد دو بعدی</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.cpp" line="618"/>
+        <source>打印一维码</source>
+        <translation> چاپ بارکد یک بعدی</translation>
+    </message>
+</context>
+<context>
+    <name>S_Mainwindow</name>
+    <message>
+        <location filename="s_mainwindow.ui" line="20"/>
+        <source>dialog_hasborder</source>
+        <translation>پنجره</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.ui" line="41"/>
+        <source>File actions</source>
+        <translation>عملیات فایل</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.ui" line="75"/>
+        <source>Shape actions</source>
+        <translation>اشکال</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.ui" line="122"/>
+        <source>E&amp;xit</source>
+        <translation>خروج</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.ui" line="131"/>
+        <source>Add Rectangle</source>
+        <translation>افزودن مستطیل</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.ui" line="140"/>
+        <source>Remove Shape</source>
+        <translation>حذف شکل</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.ui" line="145"/>
+        <source>Add robot</source>
+        <translation>Add robot</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.ui" line="150"/>
+        <source>Add snowan</source>
+        <translation>Add snowan</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.ui" line="159"/>
+        <source>Add Twobarcode</source>
+        <translation>افزودن بارکد دو بعدی</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.ui" line="168"/>
+        <source>Add Onebarcode</source>
+        <translation>افزودن بارکد یک بعدی</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.ui" line="173"/>
+        <source>Confirm</source>
+        <translation>تایید کردن</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.ui" line="182"/>
+        <source>Add BlackFill</source>
+        <translation>Add BlackFill</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.ui" line="187"/>
+        <source>Add BlackRect</source>
+        <translation>افزودن مستطیل مشکی</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.ui" line="196"/>
+        <source>Add Cancel</source>
+        <translation>Add Cancel</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.ui" line="205"/>
+        <source>Add Erase</source>
+        <translation>Add Erase</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.ui" line="210"/>
+        <source>Add Oblique</source>
+        <translation>افزودن خطوط اریب</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.ui" line="215"/>
+        <source>Add Text</source>
+        <translation> افزودن متن</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.ui" line="220"/>
+        <source>Add WhiteFill</source>
+        <translation>Add WhiteFill</translation>
+    </message>
+    <message>
+        <location filename="s_mainwindow.ui" line="225"/>
+        <source>Setting</source>
+        <translation>تنظیمات</translation>
+    </message>
+</context>
+<context>
+    <name>asyn_Printer</name>
+    <message>
+        <location filename="asyn_printer.cpp" line="49"/>
+        <source>路径错误!</source>
+        <translation>مسیر اشتباه است!</translation>
+    </message>
+</context>
+<context>
+    <name>barscale_downdialog</name>
+    <message>
+        <location filename="barscale_downdialog.ui" line="14"/>
+        <source>Dialog</source>
+        <translation>پنجره</translation>
+    </message>
+    <message>
+        <location filename="barscale_downdialog.ui" line="17"/>
+        <source>dialog_hasborder</source>
+        <translation>پنجره</translation>
+    </message>
+    <message>
+        <location filename="barscale_downdialog.ui" line="50"/>
+        <source>hh:mm:ss:zzz</source>
+        <translation>hh:mm:ss:zzz</translation>
+    </message>
+    <message>
+        <location filename="barscale_downdialog.ui" line="70"/>
+        <source>完成</source>
+        <translation>پایان</translation>
+    </message>
+    <message>
+        <location filename="barscale_downdialog.cpp" line="15"/>
+        <source>下载</source>
+        <translation>دانلود</translation>
+    </message>
+    <message>
+        <location filename="barscale_downdialog.cpp" line="17"/>
+        <source>序号</source>
+        <translation>شماره</translation>
+    </message>
+    <message>
+        <location filename="barscale_downdialog.cpp" line="17"/>
+        <source>地址</source>
+        <translation>آدرس</translation>
+    </message>
+    <message>
+        <location filename="barscale_downdialog.cpp" line="17"/>
+        <source>端口</source>
+        <translation>پورت</translation>
+    </message>
+    <message>
+        <location filename="barscale_downdialog.cpp" line="18"/>
+        <source>状态</source>
+        <translation>وضعیت</translation>
+    </message>
+    <message>
+        <location filename="barscale_downdialog.cpp" line="18"/>
+        <source>计数</source>
+        <translation>در حال محاسبه</translation>
+    </message>
+    <message>
+        <location filename="barscale_downdialog.cpp" line="18"/>
+        <source>进度</source>
+        <translation>پیشرفت</translation>
+    </message>
+    <message>
+        <location filename="barscale_downdialog.cpp" line="51"/>
+        <source>不使用</source>
+        <translation>استفاده نکنید</translation>
+    </message>
+    <message>
+        <location filename="barscale_downdialog.cpp" line="55"/>
+        <source>未连接</source>
+        <translation>وصل نمی باشد</translation>
+    </message>
+</context>
+<context>
+    <name>barscale_main_dialog</name>
+    <message>
+        <location filename="barscale_main_dialog.ui" line="14"/>
+        <source>Dialog</source>
+        <translation>پنجره</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.ui" line="25"/>
+        <source>dialog_hasborder</source>
+        <translation>پنجره</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.ui" line="33"/>
+        <source>下载商品信息</source>
+        <translation>دانلود اطلاعات کالا</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.ui" line="43"/>
+        <source>清除PLU</source>
+        <translation>پاک کردنPLU</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.ui" line="53"/>
+        <source>设置标签(内置)</source>
+        <translation>Set Tags(built-in)</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.ui" line="63"/>
+        <source>网络管理</source>
+        <translation>مدیریت شبکه</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.ui" line="73"/>
+        <location filename="barscale_main_dialog.cpp" line="22412"/>
+        <source>导出</source>
+        <translation>خارج کردن اطلاعات از نرم افزار</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.ui" line="96"/>
+        <source>退出</source>
+        <translation>خروج</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.ui" line="110"/>
+        <source>店名</source>
+        <translation>نام فروشگاه</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.ui" line="127"/>
+        <source>型号</source>
+        <translation>مدل</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.ui" line="140"/>
+        <location filename="barscale_main_dialog.cpp" line="730"/>
+        <source>标识号</source>
+        <translation>شماره شناسایی</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.ui" line="157"/>
+        <source>条码格式</source>
+        <translation>فرمت بارکد</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="723"/>
+        <location filename="barscale_main_dialog.cpp" line="737"/>
+        <source>PLU编号</source>
+        <translation>شماره PLU</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="724"/>
+        <source>商品名</source>
+        <translation>نام کالا</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="725"/>
+        <location filename="barscale_main_dialog.cpp" line="737"/>
+        <source>商品代码</source>
+        <translation>کد کالا</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="726"/>
+        <source>单价(/kg)</source>
+        <translation>قیمت(واحد/کیلوگرم)</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="728"/>
+        <location filename="barscale_main_dialog.cpp" line="737"/>
+        <source>称重方式</source>
+        <translation>حالت وزن کردن</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="729"/>
+        <location filename="barscale_main_dialog.cpp" line="738"/>
+        <source>有效日期</source>
+        <translation>تاریخ اعمال:</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="737"/>
+        <source>单价</source>
+        <translation>قیمت واحد</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="738"/>
+        <source>特殊信息1</source>
+        <translation>اطلاعات خاص 1  </translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="738"/>
+        <source>特殊信息2</source>
+        <translation>اطلاعات خاص 2</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="738"/>
+        <source>特殊信息3</source>
+        <translation>اطلاعات خاص 3</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="739"/>
+        <source>店名号</source>
+        <translation>شماره نام فروشگاه</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="739"/>
+        <source>部门号</source>
+        <translation>تعداد بخش</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="739"/>
+        <source>数字代号</source>
+        <translation>عددی</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="739"/>
+        <source>皮重</source>
+        <translation>پارسنگ</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="740"/>
+        <source>标签号</source>
+        <translation>تعداد برچسب</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="740"/>
+        <source>是否打折</source>
+        <translation>آیا تخفیف دارد یا خیر؟</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="740"/>
+        <source>1时间段开始</source>
+        <translation>آغاز اولین دوره</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="740"/>
+        <source>1时间段结束</source>
+        <translation>پایان اولین دوره</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="742"/>
+        <source>1时间段折扣</source>
+        <translation>تخفیفات اولین دوره</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="742"/>
+        <source>2时间段开始</source>
+        <translation>آغاز دومین دوره</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="742"/>
+        <source>2时间段结束</source>
+        <translation>پایان دومین دوره</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="742"/>
+        <source>2时间段折扣</source>
+        <translation>تخفیفات دومین دوره</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="743"/>
+        <source>3时间段开始</source>
+        <translation>آغاز سومین دوره</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="743"/>
+        <source>3时间段结束</source>
+        <translation>پایان سومین دوره</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="743"/>
+        <source>3时间段折扣</source>
+        <translation>تخفیفات سومین دوره</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="743"/>
+        <source>4时间段开始</source>
+        <translation>آغاز چهارمین دوره</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="744"/>
+        <source>4时间段结束</source>
+        <translation>پایان چهارمین دوره</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="744"/>
+        <source>4时间段折扣</source>
+        <translation>تخفیفات چهارمین دوره</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="744"/>
+        <source>商品名1</source>
+        <translation>Product Name 1</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="744"/>
+        <source>商品名2</source>
+        <translation>Product Name 2</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="745"/>
+        <source>商品名3</source>
+        <translation>Product Name 3</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="821"/>
+        <source>测试三</source>
+        <translation>تست کردن 3</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="885"/>
+        <source>完成</source>
+        <translation>Finished</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="22427"/>
+        <location filename="barscale_main_dialog.cpp" line="22440"/>
+        <source>条码秤</source>
+        <translation>ترازو</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="22427"/>
+        <source>条码秤plu导出失败:</source>
+        <translation>خطا در خارج کردن مقیاس بارکد PLU از نرم افزار:</translation>
+    </message>
+    <message>
+        <location filename="barscale_main_dialog.cpp" line="22440"/>
+        <source>导出成功</source>
+        <translation>Export successfully</translation>
+    </message>
+</context>
+<context>
+    <name>barscale_net_set_change</name>
+    <message>
+        <location filename="barscale_net_set_dialog.cpp" line="120"/>
+        <source>网络设置-修改</source>
+        <translation>تنظیمات شبکه-ویرایش کردن</translation>
+    </message>
+</context>
+<context>
+    <name>barscale_net_set_change_dialog</name>
+    <message>
+        <location filename="barscale_net_set_change_dialog.ui" line="14"/>
+        <source>Dialog</source>
+        <translation>پنجره</translation>
+    </message>
+    <message>
+        <location filename="barscale_net_set_change_dialog.ui" line="17"/>
+        <source>dialog_hasborder</source>
+        <translation>پنجره</translation>
+    </message>
+    <message>
+        <location filename="barscale_net_set_change_dialog.ui" line="25"/>
+        <source>秤号</source>
+        <translation>شماره ترازو</translation>
+    </message>
+    <message>
+        <location filename="barscale_net_set_change_dialog.ui" line="42"/>
+        <source>秤名</source>
+        <translation>نام ترازو</translation>
+    </message>
+    <message>
+        <location filename="barscale_net_set_change_dialog.ui" line="52"/>
+        <source>地址</source>
+        <translation>آدرس</translation>
+    </message>
+    <message>
+        <location filename="barscale_net_set_change_dialog.ui" line="65"/>
+        <source>端口</source>
+        <translation>پورت</translation>
+    </message>
+    <message>
+        <location filename="barscale_net_set_change_dialog.ui" line="78"/>
+        <source>启用</source>
+        <translation>فعال کردن</translation>
+    </message>
+    <message>
+        <location filename="barscale_net_set_change_dialog.ui" line="109"/>
+        <source>确定</source>
+        <translation>تاييد</translation>
+    </message>
+    <message>
+        <location filename="barscale_net_set_change_dialog.ui" line="116"/>
+        <source>取消</source>
+        <translation>لغو کردن</translation>
+    </message>
+</context>
+<context>
+    <name>barscale_net_set_dialog</name>
+    <message>
+        <location filename="barscale_net_set_dialog.ui" line="14"/>
+        <source>Dialog</source>
+        <translation>پنجره</translation>
+    </message>
+    <message>
+        <location filename="barscale_net_set_dialog.ui" line="17"/>
+        <source>dialog_hasborder</source>
+        <translation>پنجره</translation>
+    </message>
+    <message>
+        <location filename="barscale_net_set_dialog.ui" line="25"/>
+        <source>新增</source>
+        <translation>اضافه کردن</translation>
+    </message>
+    <message>
+        <location filename="barscale_net_set_dialog.ui" line="32"/>
+        <source>修改</source>
+        <translation>ویرایش</translation>
+    </message>
+    <message>
+        <location filename="barscale_net_set_dialog.ui" line="39"/>
+        <source>删除</source>
+        <translation>حذف کردن</translation>
+    </message>
+    <message>
+        <location filename="barscale_net_set_dialog.ui" line="59"/>
+        <source>退出</source>
+        <translation>خروج</translation>
+    </message>
+    <message>
+        <location filename="barscale_net_set_dialog.cpp" line="15"/>
+        <source>网络设置-新增</source>
+        <translation>تنظیمات شبکه-اضافه کردن</translation>
+    </message>
+    <message>
+        <location filename="barscale_net_set_dialog.cpp" line="18"/>
+        <source>秤号</source>
+        <translation>شماره ترازو</translation>
+    </message>
+    <message>
+        <location filename="barscale_net_set_dialog.cpp" line="18"/>
+        <source>秤名</source>
+        <translation>نام ترازو</translation>
+    </message>
+    <message>
+        <location filename="barscale_net_set_dialog.cpp" line="18"/>
+        <source>地址/端口</source>
+        <translation>آدرس/پورت</translation>
+    </message>
+    <message>
+        <location filename="barscale_net_set_dialog.cpp" line="18"/>
+        <source>状态</source>
+        <translation>وضعیت</translation>
+    </message>
+    <message>
+        <location filename="barscale_net_set_dialog.cpp" line="40"/>
+        <location filename="barscale_net_set_dialog.cpp" line="54"/>
+        <location filename="barscale_net_set_dialog.cpp" line="60"/>
+        <source>使用</source>
+        <translation>در حال استفاده می باشد</translation>
+    </message>
+    <message>
+        <location filename="barscale_net_set_dialog.cpp" line="40"/>
+        <location filename="barscale_net_set_dialog.cpp" line="60"/>
+        <source>不使用</source>
+        <translation>استفاده نکنید</translation>
+    </message>
+</context>
+<context>
+    <name>labelprint_design_dialog</name>
+    <message>
+        <location filename="labelprint_design_dialog.ui" line="14"/>
+        <source>Dialog</source>
+        <translation>پنجره</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.ui" line="17"/>
+        <source>dialog_hasborder</source>
+        <translation>پنجره</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.ui" line="62"/>
+        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ff00ff;&quot;&gt;测试&lt;/span&gt;只会打印一条数据,多列时请&lt;span style=&quot; color:#ff00ff;&quot;&gt;打印&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished">Press &quot;Test&quot;button to print one piece of the data,while press &quot;Print&quot; button for more than one piece of data</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.ui" line="73"/>
+        <source>测试</source>
+        <translation>تست کردن</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.ui" line="80"/>
+        <source>switch</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.ui" line="87"/>
+        <source>表单保存</source>
+        <translation>ذخیره کردن فرم ها</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.ui" line="94"/>
+        <source>表单导入</source>
+        <translation>وارد کردن فرم ها</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.ui" line="101"/>
+        <source>表单初始</source>
+        <translation>آغاز فرم ها</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.cpp" line="26"/>
+        <source>设计</source>
+        <translation>طراحی</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.cpp" line="31"/>
+        <location filename="labelprint_design_dialog.cpp" line="95"/>
+        <source>--&gt;预览设置</source>
+        <translation>تنظیمات پیش نمایش</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.cpp" line="58"/>
+        <location filename="labelprint_design_dialog.cpp" line="150"/>
+        <location filename="labelprint_design_dialog.cpp" line="179"/>
+        <location filename="labelprint_design_dialog.cpp" line="195"/>
+        <location filename="labelprint_design_dialog.cpp" line="208"/>
+        <location filename="labelprint_design_dialog.cpp" line="213"/>
+        <location filename="labelprint_design_dialog.cpp" line="227"/>
+        <location filename="labelprint_design_dialog.cpp" line="249"/>
+        <location filename="labelprint_design_dialog.cpp" line="443"/>
+        <source>标价签错误:</source>
+        <translation>خطا در چاپگر قیمت:</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.cpp" line="58"/>
+        <location filename="labelprint_design_dialog.cpp" line="208"/>
+        <source>保存失败</source>
+        <translation>خطا در ذخیره کردن</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.cpp" line="90"/>
+        <source>&lt;--预览</source>
+        <translation>پیش نمایش</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.cpp" line="106"/>
+        <source>商品名称</source>
+        <translation>نام کالا</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.cpp" line="107"/>
+        <source>条码1</source>
+        <translation>بارکد 1</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.cpp" line="108"/>
+        <source>规格</source>
+        <translation>مشخصات</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.cpp" line="109"/>
+        <source>单位</source>
+        <translation>واحد</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.cpp" line="111"/>
+        <source>现售价</source>
+        <translation>قیمت کنونی</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.cpp" line="112"/>
+        <source>产地</source>
+        <translation>ساخت</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.cpp" line="113"/>
+        <source>条码2</source>
+        <translation>بارکد 2</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.cpp" line="122"/>
+        <source>导出表单</source>
+        <translation>خارج کردن فرم ها</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.cpp" line="143"/>
+        <source>标价签错误</source>
+        <translation>خطا در چاپگر قیمت</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.cpp" line="143"/>
+        <source>没有找到文件</source>
+        <translation>فایل یافت نشد!</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.cpp" line="150"/>
+        <source>导入失败</source>
+        <translation>خطا در وارد کردن</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.cpp" line="173"/>
+        <source>保存表单</source>
+        <translation>ذخیره کردن فرم ها</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.cpp" line="179"/>
+        <source>文件名为空</source>
+        <translation>نام فایل خالی می باشد</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.cpp" line="195"/>
+        <source>标价签:</source>
+        <translation>برچسب قیمت:</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.cpp" line="195"/>
+        <source>有同名文件,是否覆盖?</source>
+        <translation>فایل با نام مشابه وجود دارد. می خواهید جایگزین فایل قبلی شود؟</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.cpp" line="195"/>
+        <source>确定</source>
+        <translation>تاييد</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.cpp" line="195"/>
+        <source>取消</source>
+        <translation>لغو کردن</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.cpp" line="213"/>
+        <source>保存成功</source>
+        <translation>ذخيره سازي با موفقيت انجام شد</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.cpp" line="227"/>
+        <source>测试至少有一条数据</source>
+        <translation>برای تست کردن به قسمتی از اطلاعات نیاز دارید</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.cpp" line="227"/>
+        <source>没有需要打印的数据</source>
+        <translation>اطلاعاتی برای چاپ کردن وجود ندارد</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.cpp" line="238"/>
+        <source>USB</source>
+        <translation>USB</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.cpp" line="242"/>
+        <location filename="labelprint_design_dialog.cpp" line="252"/>
+        <source>串口</source>
+        <translation>درگاه سریال</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.cpp" line="245"/>
+        <source>网口</source>
+        <translation>درگاه اترنت</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.cpp" line="249"/>
+        <source>标签打印失败</source>
+        <translation>خطا در چاپ برچسب قیمت</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_dialog.cpp" line="443"/>
+        <source>打印成功</source>
+        <translation>چاپ کردن با موفقیت انجام شد</translation>
+    </message>
+</context>
+<context>
+    <name>labelprint_design_import_dialog</name>
+    <message>
+        <location filename="labelprint_design_import_dialog.ui" line="14"/>
+        <source>Dialog</source>
+        <translation>پنجره</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_import_dialog.ui" line="17"/>
+        <source>dialog_hasborder</source>
+        <translation>پنجره</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_import_dialog.ui" line="25"/>
+        <source>文件表单</source>
+        <translation>فرم فایل</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_import_dialog.ui" line="52"/>
+        <source>确定</source>
+        <translation>تاييد</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_import_dialog.ui" line="59"/>
+        <source>取消</source>
+        <translation>لغو کردن</translation>
+    </message>
+</context>
+<context>
+    <name>labelprint_design_save_dialog</name>
+    <message>
+        <location filename="labelprint_design_save_dialog.ui" line="14"/>
+        <source>Dialog</source>
+        <translation>پنجره</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_save_dialog.ui" line="17"/>
+        <source>dialog_hasborder</source>
+        <translation>پنجره</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_save_dialog.ui" line="25"/>
+        <source>文件名</source>
+        <translation>نام فایل</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_save_dialog.ui" line="55"/>
+        <source>确定</source>
+        <translation>تاييد</translation>
+    </message>
+    <message>
+        <location filename="labelprint_design_save_dialog.ui" line="62"/>
+        <source>取消</source>
+        <translation>لغو کردن</translation>
+    </message>
+</context>
+<context>
+    <name>labelprint_goodinfo_add_dialog</name>
+    <message>
+        <location filename="labelprint_goodinfo_add_dialog.ui" line="14"/>
+        <source>Dialog</source>
+        <translation>پنجره</translation>
+    </message>
+    <message>
+        <location filename="labelprint_goodinfo_add_dialog.ui" line="41"/>
+        <source>确定</source>
+        <translation>تاييد</translation>
+    </message>
+    <message>
+        <location filename="labelprint_goodinfo_add_dialog.ui" line="48"/>
+        <source>取消</source>
+        <translation>لغو کردن</translation>
+    </message>
+</context>
+<context>
+    <name>labelprint_goodinfo_dialog</name>
+    <message>
+        <location filename="labelprint_goodinfo_dialog.ui" line="14"/>
+        <source>Dialog</source>
+        <translation>پنجره</translation>
+    </message>
+    <message>
+        <location filename="labelprint_goodinfo_dialog.ui" line="37"/>
+        <source>添加</source>
+        <translation>اضافه کردن</translation>
+    </message>
+    <message>
+        <location filename="labelprint_goodinfo_dialog.ui" line="44"/>
+        <source>移除</source>
+        <translation>حذف کردن</translation>
+    </message>
+    <message>
+        <location filename="labelprint_goodinfo_dialog.cpp" line="13"/>
+        <source>商品信息</source>
+        <translation>اطلاعات کالا</translation>
+    </message>
+</context>
+<context>
+    <name>labelprint_goodinfo_select_dialog</name>
+    <message>
+        <location filename="labelprint_goodinfo_select_dialog.ui" line="14"/>
+        <source>Dialog</source>
+        <translation>پنجره</translation>
+    </message>
+    <message>
+        <location filename="labelprint_goodinfo_select_dialog.ui" line="17"/>
+        <source>dialog_hasborder</source>
+        <translation>پنجره</translation>
+    </message>
+    <message>
+        <location filename="labelprint_goodinfo_select_dialog.ui" line="31"/>
+        <source>TextLabel</source>
+        <translation>برچسب</translation>
+    </message>
+    <message>
+        <location filename="labelprint_goodinfo_select_dialog.ui" line="58"/>
+        <source>确定</source>
+        <translation>تاييد</translation>
+    </message>
+    <message>
+        <location filename="labelprint_goodinfo_select_dialog.ui" line="65"/>
+        <source>取消</source>
+        <translation>لغو کردن</translation>
+    </message>
+    <message>
+        <location filename="labelprint_goodinfo_select_dialog.cpp" line="13"/>
+        <source>选中商品</source>
+        <translation>کالاهای انتخاب شده</translation>
+    </message>
+    <message>
+        <location filename="labelprint_goodinfo_select_dialog.cpp" line="38"/>
+        <source>打印次数</source>
+        <translation>تعداد چاپ</translation>
+    </message>
+</context>
+<context>
+    <name>labelprint_main_dialog</name>
+    <message>
+        <location filename="labelprint_main_dialog.ui" line="14"/>
+        <source>Dialog</source>
+        <translation>پنجره</translation>
+    </message>
+    <message>
+        <location filename="labelprint_main_dialog.ui" line="36"/>
+        <source>dialog_hasborder</source>
+        <translation>پنجره</translation>
+    </message>
+    <message>
+        <location filename="labelprint_main_dialog.ui" line="60"/>
+        <source>表单预览</source>
+        <translation>پیش نمایش</translation>
+    </message>
+    <message>
+        <location filename="labelprint_main_dialog.ui" line="70"/>
+        <source>打印设置</source>
+        <translation>تنظیمات چاپگر</translation>
+    </message>
+    <message>
+        <location filename="labelprint_main_dialog.ui" line="77"/>
+        <source>商品信息</source>
+        <translation>اطلاعات کالا</translation>
+    </message>
+    <message>
+        <location filename="labelprint_main_dialog.ui" line="106"/>
+        <source>打印</source>
+        <translation>چاپ کردن</translation>
+    </message>
+    <message>
+        <location filename="labelprint_main_dialog.ui" line="119"/>
+        <source>退出</source>
+        <translation>خروج</translation>
+    </message>
+    <message>
+        <location filename="labelprint_main_dialog.cpp" line="14"/>
+        <source>标签打印机</source>
+        <translation>چاپگر لیبل</translation>
+    </message>
+</context>
+<context>
+    <name>labelprint_set_dialog</name>
+    <message>
+        <location filename="labelprint_set_dialog.ui" line="14"/>
+        <source>Dialog</source>
+        <translation>بارکد</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_dialog.ui" line="17"/>
+        <source>dialog_hasborder</source>
+        <translation> پنجره</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_dialog.ui" line="23"/>
+        <location filename="labelprint_set_dialog.ui" line="215"/>
+        <source>测试</source>
+        <translation>تست چاپگر فاکتور</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_dialog.ui" line="36"/>
+        <source>123456789</source>
+        <translation>123456789</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_dialog.ui" line="86"/>
+        <source>:</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_dialog.ui" line="93"/>
+        <source>通信方式</source>
+        <translation>حالت ارتباطی</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_dialog.ui" line="113"/>
+        <source>一维码宽边:窄边</source>
+        <translation>بارکد یک بعدی: سطح باریک</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_dialog.ui" line="137"/>
+        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;1.佳博GP-3150TIN支持网口打印,可在通讯方式里选择;端口选择手动输入[192.168.123.100:9100]格式的ip:port&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_dialog.ui" line="148"/>
+        <source>字体类型</source>
+        <translation>نوع فونت</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_dialog.ui" line="158"/>
+        <source>一维码类型</source>
+        <translation>نوع بارکد یک بعدی</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_dialog.ui" line="168"/>
+        <source>串口波特率</source>
+        <translation> سرعت انتقال درگاه سریال</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_dialog.ui" line="178"/>
+        <source>端口选择</source>
+        <translation>انتخاب درگاه</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_dialog.ui" line="188"/>
+        <source>类型</source>
+        <translation>نوع</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_dialog.ui" line="198"/>
+        <source>标价签打印机</source>
+        <translation>چاپگر برچسب قیمت </translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_dialog.ui" line="225"/>
+        <source>barcode</source>
+        <translation>بارکد</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_dialog.ui" line="235"/>
+        <source>ABC123你好</source>
+        <translation>سلام ABC123</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_dialog.ui" line="242"/>
+        <source>text</source>
+        <translation>متن</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_dialog.cpp" line="22"/>
+        <source>标签打印设置</source>
+        <translation>تنظیمات چاپگر لیبل</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_dialog.cpp" line="87"/>
+        <source>USB</source>
+        <translation>USB</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_dialog.cpp" line="91"/>
+        <location filename="labelprint_set_dialog.cpp" line="101"/>
+        <source>串口</source>
+        <translation>درگاه سریال</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_dialog.cpp" line="94"/>
+        <source>网口</source>
+        <translation>درگاه اترنت</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_dialog.cpp" line="98"/>
+        <location filename="labelprint_set_dialog.cpp" line="222"/>
+        <source>标价签错误:</source>
+        <translation>خطا در چاپگر قیمت:</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_dialog.cpp" line="222"/>
+        <source>不支持网口,返回串口模式</source>
+        <translation>اترنت پشتیبانی نمی شود از درگاه سریال استفاده نمایید</translation>
+    </message>
+</context>
+<context>
+    <name>labelprint_set_tagbarcode_dialog</name>
+    <message>
+        <location filename="labelprint_set_tagbarcode_dialog.ui" line="14"/>
+        <source>Dialog</source>
+        <translation>پنجره</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_tagbarcode_dialog.ui" line="17"/>
+        <source>dialog_hasborder</source>
+        <translation>پنجره</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_tagbarcode_dialog.ui" line="30"/>
+        <source>打印吊牌</source>
+        <translation>چاپ لوگو</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_tagbarcode_dialog.ui" line="37"/>
+        <location filename="labelprint_set_tagbarcode_dialog.cpp" line="141"/>
+        <source>标价签宽度</source>
+        <translation>طول برچسب قیمت</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_tagbarcode_dialog.ui" line="50"/>
+        <location filename="labelprint_set_tagbarcode_dialog.ui" line="73"/>
+        <location filename="labelprint_set_tagbarcode_dialog.ui" line="90"/>
+        <location filename="labelprint_set_tagbarcode_dialog.ui" line="118"/>
+        <source>mm</source>
+        <translation>میلی متر</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_tagbarcode_dialog.ui" line="60"/>
+        <location filename="labelprint_set_tagbarcode_dialog.cpp" line="142"/>
+        <source>标价签高度</source>
+        <translation>عرض برچسب قیمت</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_tagbarcode_dialog.ui" line="107"/>
+        <source>单位</source>
+        <translation>واحد</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_tagbarcode_dialog.ui" line="123"/>
+        <source>dots</source>
+        <translation>dots</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_tagbarcode_dialog.ui" line="131"/>
+        <source>分辨率</source>
+        <translation>رزولوشن</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_tagbarcode_dialog.ui" line="142"/>
+        <source>200DPI</source>
+        <translation>200DPI</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_tagbarcode_dialog.ui" line="147"/>
+        <source>300DPI</source>
+        <translation>300DPI</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_tagbarcode_dialog.ui" line="158"/>
+        <source>提示：
+200 dpi： 1mm  = 8dots
+300 dpi： 1mm  = 12dots
+</source>
+        <translation>نکته:200 dpi:1mm= 8dots 300 dpi:1mm=12dots</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_tagbarcode_dialog.ui" line="174"/>
+        <source>标价签间距</source>
+        <translation>فاصله برچسب</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_tagbarcode_dialog.ui" line="185"/>
+        <source>1</source>
+        <translation>1</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_tagbarcode_dialog.ui" line="190"/>
+        <source>2</source>
+        <translation>2</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_tagbarcode_dialog.ui" line="195"/>
+        <source>3</source>
+        <translation>3</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_tagbarcode_dialog.ui" line="203"/>
+        <source>条码纸列数</source>
+        <translation type="unfinished">Number of Barcode Paper Columns</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_tagbarcode_dialog.ui" line="230"/>
+        <source>打印条码</source>
+        <translation>چاپ بارکد</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_tagbarcode_dialog.cpp" line="11"/>
+        <source>标签设置</source>
+        <translation>تنظیمات برچسب</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_tagbarcode_dialog.cpp" line="130"/>
+        <source>条码纸宽度</source>
+        <translation>طول برچسب بارکد</translation>
+    </message>
+    <message>
+        <location filename="labelprint_set_tagbarcode_dialog.cpp" line="131"/>
+        <source>条码纸高度</source>
+        <translation>عرض برچسب بارکد</translation>
+    </message>
+</context>
+</TS>

@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>peripheral.qm</file>
+        <file>log.png</file>
+    </qresource>
+</RCC>

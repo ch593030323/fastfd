@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/undo.png</file>
+        <file>image/twobar.png</file>
+        <file>image/remove.png</file>
+        <file>image/redo.png</file>
+        <file>image/rectangle.png</file>
+        <file>image/rb_on.png</file>
+        <file>image/rb_off.png</file>
+        <file>image/onebar.png</file>
+    </qresource>
+</RCC>

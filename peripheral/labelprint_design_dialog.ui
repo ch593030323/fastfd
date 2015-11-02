@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>labelprint_design_dialog</class>
+ <widget class="QWidget" name="labelprint_design_dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>744</width>
+    <height>538</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="outer_stylesheet" stdset="0">
+   <string>dialog_hasborder</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_3">
+   <property name="spacing">
+    <number>3</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QStackedWidget" name="stackedWidget">
+     <property name="currentIndex">
+      <number>1</number>
+     </property>
+     <widget class="S_MainWindow" name="page"/>
+     <widget class="labelprint_set_tagbarcode_dialog" name="page_2"/>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,0,0,0,0,0,0">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ff00ff;&quot;&gt;测试&lt;/span&gt;只会打印一条数据,多列时请&lt;span style=&quot; color:#ff00ff;&quot;&gt;打印&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="uinormal_button" name="pushButton_test">
+       <property name="text">
+        <string>测试</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="uinormal_button" name="pushButton_switch">
+       <property name="text">
+        <string>switch</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="uinormal_button" name="pushButton_savebill">
+       <property name="text">
+        <string>表单保存</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="uinormal_button" name="pushButton_importbill">
+       <property name="text">
+        <string>表单导入</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="uinormal_button" name="pushButton_defbill">
+       <property name="text">
+        <string>表单初始</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>uinormal_button</class>
+   <extends>QPushButton</extends>
+   <header>uinormal_button.h</header>
+  </customwidget>
+  <customwidget>
+   <class>S_MainWindow</class>
+   <extends>QWidget</extends>
+   <header>s_mainwindow.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>labelprint_set_tagbarcode_dialog</class>
+   <extends>QWidget</extends>
+   <header>labelprint_set_tagbarcode_dialog.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,2544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>back_view_2</class>
+ <widget class="QDialog" name="back_view_2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>751</width>
+    <height>525</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog#back_view_2{
+background:#ebb836;
+}</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_7" rowstretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <item row="0" column="0" rowspan="3">
+    <widget class="QLabel" name="label_2">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+background-image: url(:/image/title_800_108.png);
+background-repeat: no-repeat;
+font-size:20pt;
+color:white;
+}</string>
+     </property>
+     <property name="text">
+      <string>好搭档餐饮管理软件</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0" rowspan="14">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QFrame" name="frame">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+QFrame{
+border:5px solid #c07834;
+border-radius:10px;
+background:#faefc7;
+}
+
+QRadioButton
+{
+border:0px;
+border-radius:0px;
+border-image: url(:/image/widgets_pic/backview_2_select.png);
+padding-left: 12px;
+
+}
+QRadioButton:checked{
+color:#ba4738;
+}</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="back_view_2_radio" name="radioButton">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">
+ QRadioButton::indicator:checked {
+     image: url(:/image/widgets_pic/u30.png);
+ }
+ QRadioButton::indicator:!checked {
+     image: url(:/image/widgets_pic/u33.png);
+ }</string>
+          </property>
+          <property name="text">
+           <string>基础资料</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+          <property name="outer_stylesheet" stdset="0">
+           <string>backview_select_left</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="back_view_2_radio" name="radioButton_3">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">
+ QRadioButton::indicator:checked {
+     image: url(:/image/widgets_pic/u20.png);
+ }
+ QRadioButton::indicator:!checked {
+     image: url(:/image/widgets_pic/u22.png);
+ }</string>
+          </property>
+          <property name="text">
+           <string>会员设置</string>
+          </property>
+          <property name="outer_stylesheet" stdset="0">
+           <string>backview_select_left</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="back_view_2_radio" name="radioButton_5">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">
+ QRadioButton::indicator:checked {
+     image: url(:/image/widgets_pic/u50.png);
+ }
+ QRadioButton::indicator:!checked {
+     image: url(:/image/widgets_pic/u55.png);
+ }</string>
+          </property>
+          <property name="text">
+           <string>前台销售</string>
+          </property>
+          <property name="outer_stylesheet" stdset="0">
+           <string>backview_select_left</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="back_view_2_radio" name="radioButton_4">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">
+ QRadioButton::indicator:checked {
+     image: url(:/image/widgets_pic/u40.png);
+ }
+ QRadioButton::indicator:!checked {
+     image: url(:/image/widgets_pic/u44.png);
+ }</string>
+          </property>
+          <property name="text">
+           <string>库存管理</string>
+          </property>
+          <property name="outer_stylesheet" stdset="0">
+           <string>backview_select_left</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="back_view_2_radio" name="radioButton_8">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QRadioButton::indicator:checked {
+     image: url(:/image/widgets_pic/u10.png);
+ }
+ QRadioButton::indicator:!checked {
+     image: url(:/image/widgets_pic/u11.png);
+ }</string>
+          </property>
+          <property name="text">
+           <string>报表分析</string>
+          </property>
+          <property name="outer_stylesheet" stdset="0">
+           <string>backview_select_left</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="back_view_2_radio" name="radioButton_7">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">
+ QRadioButton::indicator:checked {
+     image: url(:/image/widgets_pic/u60.png);
+ }
+ QRadioButton::indicator:!checked {
+     image: url(:/image/widgets_pic/u66.png);
+ }</string>
+          </property>
+          <property name="text">
+           <string>系统设置</string>
+          </property>
+          <property name="outer_stylesheet" stdset="0">
+           <string>backview_select_left</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="back_view_2_radio" name="radioButton_6">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">
+ QRadioButton::indicator:checked {
+     image: url(:/image/widgets_pic/u70.png);
+ }
+ QRadioButton::indicator:!checked {
+     image: url(:/image/widgets_pic/u77.png);
+ }</string>
+          </property>
+          <property name="text">
+           <string>退出</string>
+          </property>
+          <property name="outer_stylesheet" stdset="0">
+           <string>backview_select_left</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QFrame" name="frame_2">
+       <property name="styleSheet">
+        <string notr="true">QFrame{
+border:5px solid #c07834;
+border-radius:10px;
+background:#faefc7;
+}</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QStackedWidget" name="stackedWidget">
+          <property name="styleSheet">
+           <string notr="true">QStackedWidget{
+border:3px solid #d4c48d;
+border-radius:10px;
+background:#e7d8b0;
+}
+
+QToolButton[outer_stylesheet=&quot;backview_select_big&quot;],
+QToolButton[outer_stylesheet=&quot;backview_select_small&quot;]
+{
+border-radius:0px;
+}</string>
+          </property>
+          <property name="currentIndex">
+           <number>1</number>
+          </property>
+          <widget class="QWidget" name="page">
+           <layout class="QGridLayout" name="gridLayout_2">
+            <item row="0" column="0" rowspan="2">
+             <widget class="back_view_2_botton" name="toolButton">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#64c1cf;</string>
+              </property>
+              <property name="text">
+               <string>菜品资料维护</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/q2.png</normaloff>:/image/widgets_pic/q2.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="autoRaise">
+               <bool>true</bool>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>0</number>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="back_view_2_botton" name="toolButton_2">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#ea5873;</string>
+              </property>
+              <property name="text">
+               <string>餐桌资料</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/e4.png</normaloff>:/image/widgets_pic/e4.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="autoRaise">
+               <bool>true</bool>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>1</number>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="2">
+             <widget class="back_view_2_botton" name="toolButton_3">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#5c76b0;</string>
+              </property>
+              <property name="text">
+               <string>营业班次</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/e8.png</normaloff>:/image/widgets_pic/e8.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="autoRaise">
+               <bool>true</bool>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>2</number>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="back_view_2_botton" name="toolButton_5">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#7aba46;</string>
+              </property>
+              <property name="text">
+               <string>收银方式</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/e5.png</normaloff>:/image/widgets_pic/e5.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="autoRaise">
+               <bool>true</bool>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>3</number>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="back_view_2_botton" name="toolButton_4">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#dcbd39;</string>
+              </property>
+              <property name="text">
+               <string>套菜资料</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/e6.png</normaloff>:/image/widgets_pic/e6.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="autoRaise">
+               <bool>true</bool>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>4</number>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="back_view_2_botton" name="toolButton_8">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#e26835;</string>
+              </property>
+              <property name="text">
+               <string>菜品做法设置</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/e3.png</normaloff>:/image/widgets_pic/e3.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="autoRaise">
+               <bool>true</bool>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>5</number>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="2">
+             <widget class="back_view_2_botton" name="toolButton_7">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#df3736;</string>
+              </property>
+              <property name="text">
+               <string>退菜原因</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/e7.png</normaloff>:/image/widgets_pic/e7.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="autoRaise">
+               <bool>true</bool>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>7</number>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="back_view_2_botton" name="toolButton_10">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#775ea7;</string>
+              </property>
+              <property name="text">
+               <string>菜品厨打设置</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/e1.png</normaloff>:/image/widgets_pic/e1.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="autoRaise">
+               <bool>true</bool>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>6</number>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="page_2">
+           <layout class="QGridLayout" name="gridLayout">
+            <item row="0" column="0" colspan="2">
+             <widget class="back_view_2_botton" name="toolButton_9">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#dcbd39;</string>
+              </property>
+              <property name="text">
+               <string>会员参数设置</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/w2.png</normaloff>:/image/widgets_pic/w2.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>0</number>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="2">
+             <widget class="back_view_2_botton" name="toolButton_11">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#775ea7;</string>
+              </property>
+              <property name="text">
+               <string>充值</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/w3.png</normaloff>:/image/widgets_pic/w3.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>1</number>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="back_view_2_botton" name="toolButton_14">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#ea5873;</string>
+              </property>
+              <property name="text">
+               <string>会员资料维护</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/w7.png</normaloff>:/image/widgets_pic/w7.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>2</number>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="back_view_2_botton" name="toolButton_13">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#7aba46;</string>
+              </property>
+              <property name="text">
+               <string>会员状态管理</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/w6.png</normaloff>:/image/widgets_pic/w6.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>3</number>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="back_view_2_botton" name="toolButton_12">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#64c1cf;</string>
+              </property>
+              <property name="text">
+               <string>会员类型变更</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/w5.png</normaloff>:/image/widgets_pic/w5.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>4</number>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="back_view_2_botton" name="toolButton_23">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#df3736;</string>
+              </property>
+              <property name="text">
+               <string>会员积分管理</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/w4.png</normaloff>:/image/widgets_pic/w4.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>5</number>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="back_view_2_botton" name="toolButton_24">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#5c76b0;</string>
+              </property>
+              <property name="text">
+               <string>会员报表</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/w1.png</normaloff>:/image/widgets_pic/w1.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>6</number>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="2">
+             <widget class="back_view_2_botton" name="toolButton_15">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#e26835;</string>
+              </property>
+              <property name="text">
+               <string>芯片清除</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/w8.png</normaloff>:/image/widgets_pic/w8.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>7</number>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="page_3">
+           <layout class="QGridLayout" name="gridLayout_3">
+            <item row="0" column="0">
+             <widget class="back_view_2_botton" name="toolButton_25">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#7aba46;</string>
+              </property>
+              <property name="text">
+               <string>今日特价</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/q1.png</normaloff>:/image/widgets_pic/q1.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>0</number>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="back_view_2_botton" name="toolButton_26">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#e26835;</string>
+              </property>
+              <property name="text">
+               <string>营业日结</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/t7.png</normaloff>:/image/widgets_pic/t7.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>1</number>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="2">
+             <widget class="back_view_2_botton" name="toolButton_27">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#775ea7;</string>
+              </property>
+              <property name="text">
+               <string>前台营业</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/t4.png</normaloff>:/image/widgets_pic/t4.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>2</number>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="back_view_2_botton" name="toolButton_28">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#5c76b0;</string>
+              </property>
+              <property name="text">
+               <string>菜品估清</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/t1.png</normaloff>:/image/widgets_pic/t1.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>3</number>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="back_view_2_botton" name="toolButton_30">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#64c1cf;</string>
+              </property>
+              <property name="text">
+               <string>销售流水</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/t6.png</normaloff>:/image/widgets_pic/t6.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>4</number>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="back_view_2_botton" name="toolButton_29">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#df3736;</string>
+              </property>
+              <property name="text">
+               <string>收银流水</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/t5.png</normaloff>:/image/widgets_pic/t5.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>5</number>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="back_view_2_botton" name="toolButton_32">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#dcbd39;</string>
+              </property>
+              <property name="text">
+               <string>反结账查询</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/t2.png</normaloff>:/image/widgets_pic/t2.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>6</number>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1" colspan="2">
+             <widget class="back_view_2_botton" name="toolButton_31">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#ea5873;</string>
+              </property>
+              <property name="text">
+               <string>营业数据查询</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/r5.png</normaloff>:/image/widgets_pic/r5.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>7</number>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="page_4">
+           <layout class="QGridLayout" name="gridLayout_4">
+            <item row="0" column="0">
+             <widget class="back_view_2_botton" name="toolButton_33">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#df3736;</string>
+              </property>
+              <property name="text">
+               <string>库存参数设置</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/y12.png</normaloff>:/image/widgets_pic/y12.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>0</number>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="back_view_2_botton" name="toolButton_34">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#7aba46;</string>
+              </property>
+              <property name="text">
+               <string>商品入库</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/r8.png</normaloff>:/image/widgets_pic/r8.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>1</number>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="2">
+             <widget class="back_view_2_botton" name="toolButton_35">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#5c76b0;</string>
+              </property>
+              <property name="text">
+               <string>库存盘点</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/r6.png</normaloff>:/image/widgets_pic/r6.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>2</number>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="back_view_2_botton" name="toolButton_36">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#64c1cf;</string>
+              </property>
+              <property name="text">
+               <string>库存查询</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/r5.png</normaloff>:/image/widgets_pic/r5.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>3</number>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="back_view_2_botton" name="toolButton_37">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#e26835;</string>
+              </property>
+              <property name="text">
+               <string>商品退货</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/r9.png</normaloff>:/image/widgets_pic/r9.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>4</number>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="back_view_2_botton" name="toolButton_38">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#308e8a;</string>
+              </property>
+              <property name="text">
+               <string>盘点查询</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/q11.png</normaloff>:/image/widgets_pic/q11.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>5</number>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="back_view_2_botton" name="toolButton_40">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#dcbd39;</string>
+              </property>
+              <property name="text">
+               <string>单据汇总查询</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/r2.png</normaloff>:/image/widgets_pic/r2.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>6</number>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="back_view_2_botton" name="toolButton_39">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#775ea7;</string>
+              </property>
+              <property name="text">
+               <string>报损单</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/r1.png</normaloff>:/image/widgets_pic/r1.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>7</number>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="2">
+             <widget class="back_view_2_botton" name="toolButton_41">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#ea5873;</string>
+              </property>
+              <property name="text">
+               <string>进销存汇总报表</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/q14.png</normaloff>:/image/widgets_pic/q14.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>8</number>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="page_5">
+           <layout class="QGridLayout" name="gridLayout_5">
+            <item row="0" column="0">
+             <widget class="back_view_2_botton" name="toolButton_42">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#ea5873;</string>
+              </property>
+              <property name="text">
+               <string>菜品消费报表</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/q2.png</normaloff>:/image/widgets_pic/q2.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_small</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>0</number>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="back_view_2_botton" name="toolButton_43">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#7aba46;</string>
+              </property>
+              <property name="text">
+               <string>营业收银报表</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/q13.png</normaloff>:/image/widgets_pic/q13.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_small</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>1</number>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="2" colspan="2">
+             <widget class="back_view_2_botton" name="toolButton_44">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#308e8a;</string>
+              </property>
+              <property name="text">
+               <string>直销商品毛利情况表</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/q14.png</normaloff>:/image/widgets_pic/q14.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_small</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>2</number>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="back_view_2_botton" name="toolButton_46">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#775ea7;</string>
+              </property>
+              <property name="text">
+               <string>菜品促销报表</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/q1.png</normaloff>:/image/widgets_pic/q1.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_small</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>3</number>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="back_view_2_botton" name="toolButton_47">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#e26835;</string>
+              </property>
+              <property name="text">
+               <string>退菜情况报表</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/q12.png</normaloff>:/image/widgets_pic/q12.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_small</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>4</number>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="back_view_2_botton" name="toolButton_49">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#f7bba1;</string>
+              </property>
+              <property name="text">
+               <string>服务员提成查询</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/q6.png</normaloff>:/image/widgets_pic/q6.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_small</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>5</number>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="back_view_2_botton" name="toolButton_48">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#64c1cf;</string>
+              </property>
+              <property name="text">
+               <string>服务费与低销查询</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/q5.png</normaloff>:/image/widgets_pic/q5.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_small</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>6</number>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="back_view_2_botton" name="toolButton_50">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#dcbd39;</string>
+              </property>
+              <property name="text">
+               <string>收银免单情况</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/q11.png</normaloff>:/image/widgets_pic/q11.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_small</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>7</number>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="back_view_2_botton" name="toolButton_51">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#6cc196;</string>
+              </property>
+              <property name="text">
+               <string>菜品销售排行统计</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/q3.png</normaloff>:/image/widgets_pic/q3.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_small</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>8</number>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="2">
+             <widget class="back_view_2_botton" name="toolButton_54">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#d9810f;</string>
+              </property>
+              <property name="text">
+               <string>餐桌营业数据统计</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/q4.png</normaloff>:/image/widgets_pic/q4.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_small</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>9</number>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="back_view_2_botton" name="toolButton_52">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#d060a0;</string>
+              </property>
+              <property name="text">
+               <string>日营业情况统计</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/q8.png</normaloff>:/image/widgets_pic/q8.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_small</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>10</number>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0" colspan="2">
+             <widget class="back_view_2_botton" name="toolButton_57">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#df3736;</string>
+              </property>
+              <property name="text">
+               <string>品类销售营业分析</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/q7.png</normaloff>:/image/widgets_pic/q7.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_small</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>11</number>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="2">
+             <widget class="back_view_2_botton" name="toolButton_55">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#5c76b0;</string>
+              </property>
+              <property name="text">
+               <string>时段营业情况分析</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/q10.png</normaloff>:/image/widgets_pic/q10.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_small</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>12</number>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="3">
+             <widget class="back_view_2_botton" name="toolButton_53">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#aace79;</string>
+              </property>
+              <property name="text">
+               <string>日月周报表分析</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/q9.png</normaloff>:/image/widgets_pic/q9.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_small</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>13</number>
+              </property>
+             </widget>
+            </item>
+           </layout>
+           <zorder>toolButton_42</zorder>
+           <zorder>toolButton_43</zorder>
+           <zorder>toolButton_44</zorder>
+           <zorder>toolButton_46</zorder>
+           <zorder>toolButton_48</zorder>
+           <zorder>toolButton_49</zorder>
+           <zorder>toolButton_50</zorder>
+           <zorder>toolButton_51</zorder>
+           <zorder>toolButton_52</zorder>
+           <zorder>toolButton_53</zorder>
+           <zorder>toolButton_54</zorder>
+           <zorder>toolButton_55</zorder>
+           <zorder>toolButton_57</zorder>
+           <zorder>toolButton_47</zorder>
+          </widget>
+          <widget class="QWidget" name="page_6">
+           <layout class="QGridLayout" name="gridLayout_6">
+            <item row="0" column="0" rowspan="2">
+             <widget class="back_view_2_botton" name="toolButton_45">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#aace79;</string>
+              </property>
+              <property name="text">
+               <string>公司信息</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/y4.png</normaloff>:/image/widgets_pic/y4.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>0</number>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="back_view_2_botton" name="toolButton_56">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#df3736;</string>
+              </property>
+              <property name="text">
+               <string>操作员信息</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/y3.png</normaloff>:/image/widgets_pic/y3.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>1</number>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="2">
+             <widget class="back_view_2_botton" name="toolButton_58">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#f7bba1;</string>
+              </property>
+              <property name="text">
+               <string>操作员权限</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/y2.png</normaloff>:/image/widgets_pic/y2.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>2</number>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="3">
+             <widget class="back_view_2_botton" name="toolButton_59">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#ea5873;</string>
+              </property>
+              <property name="text">
+               <string>数据库备份</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/y7.png</normaloff>:/image/widgets_pic/y7.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>3</number>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1" colspan="2">
+             <widget class="back_view_2_botton" name="toolButton_62">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#775ea7;</string>
+              </property>
+              <property name="text">
+               <string>基础数据导入</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/y6.png</normaloff>:/image/widgets_pic/y6.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>4</number>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3" rowspan="2">
+             <widget class="back_view_2_botton" name="toolButton_60">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#7aba46;</string>
+              </property>
+              <property name="text">
+               <string>基础数据导出</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/y5.png</normaloff>:/image/widgets_pic/y5.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>5</number>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="back_view_2_botton" name="toolButton_66">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#d9810f;</string>
+              </property>
+              <property name="text">
+               <string>系统设置</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/y12.png</normaloff>:/image/widgets_pic/y12.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>6</number>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1" colspan="2">
+             <widget class="back_view_2_botton" name="toolButton_67">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#dcbd39;</string>
+              </property>
+              <property name="text">
+               <string>云同步</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/y13.png</normaloff>:/image/widgets_pic/y13.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>7</number>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0" colspan="2">
+             <widget class="back_view_2_botton" name="toolButton_69">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#308e8a;</string>
+              </property>
+              <property name="text">
+               <string>无线点菜监控</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/y8.png</normaloff>:/image/widgets_pic/y8.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>8</number>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="2" colspan="2">
+             <widget class="back_view_2_botton" name="toolButton_71">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:#e26835;</string>
+              </property>
+              <property name="text">
+               <string>业务清除</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../res.qrc">
+                <normaloff>:/image/widgets_pic/y10.png</normaloff>:/image/widgets_pic/y10.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="outer_stylesheet" stdset="0">
+               <string>backview_select_big</string>
+              </property>
+              <property name="id" stdset="0">
+               <number>9</number>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="16" column="0">
+    <widget class="QLabel" name="label">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;
+font-size:12pt;
+background:#c07834;</string>
+     </property>
+     <property name="text">
+      <string>Nanjing Yaoqianshu Software Co., Ltd. www.yqspos.com</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>back_view_2_botton</class>
+   <extends>QToolButton</extends>
+   <header>back_view_2_botton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>back_view_2_radio</class>
+   <extends>QRadioButton</extends>
+   <header>back_view_2_radio.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="../res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

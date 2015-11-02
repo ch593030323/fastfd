@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>w_scr_dish_switch_detail</class>
+ <widget class="QDialog" name="w_scr_dish_switch_detail">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>659</width>
+    <height>595</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="showGrid">
+      <bool>false</bool>
+     </property>
+     <attribute name="horizontalHeaderVisible">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="horizontalHeaderDefaultSectionSize">
+      <number>150</number>
+     </attribute>
+     <attribute name="verticalHeaderVisible">
+      <bool>false</bool>
+     </attribute>
+     <row>
+      <property name="text">
+       <string>New Row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>New Row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>New Row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>New Row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>New Row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>New Row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>New Row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>New Row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>New Row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>New Row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>New Row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>New Row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>New Row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>New Row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>New Row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>New Row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>New Row</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>New Column</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>New Column</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>New Column</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>New Column</string>
+      </property>
+     </column>
+     <item row="0" column="1">
+      <property name="text">
+       <string>交班对账表</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="textAlignment">
+       <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+      </property>
+     </item>
+     <item row="1" column="0">
+      <property name="text">
+       <string>交班员</string>
+      </property>
+     </item>
+     <item row="1" column="1">
+      <property name="text">
+       <string>xx</string>
+      </property>
+     </item>
+     <item row="1" column="2">
+      <property name="text">
+       <string>接班人</string>
+      </property>
+     </item>
+     <item row="1" column="3">
+      <property name="text">
+       <string>xxx</string>
+      </property>
+     </item>
+     <item row="2" column="0">
+      <property name="text">
+       <string>开始时间</string>
+      </property>
+     </item>
+     <item row="2" column="1">
+      <property name="text">
+       <string>2015-14-15</string>
+      </property>
+     </item>
+     <item row="3" column="0">
+      <property name="text">
+       <string>交班时间</string>
+      </property>
+     </item>
+     <item row="3" column="1">
+      <property name="text">
+       <string>2015-14-15</string>
+      </property>
+     </item>
+     <item row="4" column="0">
+      <property name="text">
+       <string>备注</string>
+      </property>
+     </item>
+     <item row="5" column="0">
+      <property name="text">
+       <string>消费金额</string>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+     </item>
+     <item row="5" column="1">
+      <property name="text">
+       <string>100</string>
+      </property>
+     </item>
+     <item row="6" column="0">
+      <property name="text">
+       <string>优惠金额</string>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+     </item>
+     <item row="6" column="1">
+      <property name="text">
+       <string>100</string>
+      </property>
+     </item>
+     <item row="7" column="1">
+      <property name="text">
+       <string>折扣金额</string>
+      </property>
+     </item>
+     <item row="7" column="2">
+      <property name="text">
+       <string>100.0</string>
+      </property>
+     </item>
+     <item row="8" column="1">
+      <property name="text">
+       <string>赠送金额</string>
+      </property>
+     </item>
+     <item row="8" column="2">
+      <property name="text">
+       <string>100.0</string>
+      </property>
+     </item>
+     <item row="9" column="1">
+      <property name="text">
+       <string>抹零金额</string>
+      </property>
+     </item>
+     <item row="9" column="2">
+      <property name="text">
+       <string>9.00</string>
+      </property>
+     </item>
+     <item row="10" column="0">
+      <property name="text">
+       <string>反结账</string>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+     </item>
+     <item row="10" column="1">
+      <property name="text">
+       <string>120.00</string>
+      </property>
+     </item>
+     <item row="10" column="2">
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+     <item row="11" column="0">
+      <property name="text">
+       <string>实收金额</string>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+     </item>
+     <item row="11" column="1">
+      <property name="text">
+       <string>250</string>
+      </property>
+     </item>
+     <item row="12" column="0">
+      <property name="text">
+       <string>服务费与低消差</string>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+     </item>
+     <item row="12" column="1">
+      <property name="text">
+       <string>50</string>
+      </property>
+     </item>
+     <item row="13" column="0">
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+     <item row="13" column="1">
+      <property name="text">
+       <string>服务费</string>
+      </property>
+     </item>
+     <item row="13" column="2">
+      <property name="text">
+       <string>45</string>
+      </property>
+     </item>
+     <item row="14" column="0">
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+     <item row="14" column="1">
+      <property name="text">
+       <string>低消差</string>
+      </property>
+     </item>
+     <item row="14" column="2">
+      <property name="text">
+       <string>23</string>
+      </property>
+     </item>
+     <item row="15" column="0">
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+     <item row="15" column="1">
+      <property name="text">
+       <string>消费金额=实收金额+优惠金额-服务费与低消差</string>
+      </property>
+     </item>
+     <item row="16" column="0">
+      <property name="text">
+       <string>签字</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QCheckBox" name="checkBox">
+       <property name="text">
+        <string>交班打印</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="lds_toolbar" name="frame">
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>lds_toolbar</class>
+   <extends>QFrame</extends>
+   <header>lds_toolbar.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>fontviewDialog_jiulou_Dialog</class>
+ <widget class="QDialog" name="fontviewDialog_jiulou_Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>872</width>
+    <height>585</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,1">
+   <property name="spacing">
+    <number>2</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QFrame" name="frame_4">
+     <property name="outer_stylesheet" stdset="0">
+      <string>normal_view_color</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="lds_toolbar_button" name="pushButton_set">
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>经理管理</string>
+        </property>
+        <property name="outer_stylesheet" stdset="0">
+         <string>pushbutton_bottom</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="lds_toolbar_button" name="pushButton_lockstate">
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>餐台锁台状态</string>
+        </property>
+        <property name="outer_stylesheet" stdset="0">
+         <string>pushbutton_bottom</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="lds_toolbar_button" name="pushButton_shift">
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>转台</string>
+        </property>
+        <property name="outer_stylesheet" stdset="0">
+         <string>pushbutton_bottom</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="lds_toolbar_button" name="pushButton_canceltable">
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>消台</string>
+        </property>
+        <property name="outer_stylesheet" stdset="0">
+         <string>pushbutton_bottom</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="lds_toolbar_button" name="pushButton_switch">
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>交班</string>
+        </property>
+        <property name="outer_stylesheet" stdset="0">
+         <string>pushbutton_bottom</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="lds_toolbar_button" name="pushButton_order">
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>预定</string>
+        </property>
+        <property name="outer_stylesheet" stdset="0">
+         <string>pushbutton_bottom</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="lds_toolbar_button" name="pushButton_refresh">
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>数据刷新</string>
+        </property>
+        <property name="outer_stylesheet" stdset="0">
+         <string>pushbutton_bottom</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="lds_toolbar_button" name="pushButton_other">
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>其他</string>
+        </property>
+        <property name="outer_stylesheet" stdset="0">
+         <string>pushbutton_bottom</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="lds_toolbar_button" name="pushButton_open">
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>开钱箱</string>
+        </property>
+        <property name="outer_stylesheet" stdset="0">
+         <string>pushbutton_bottom</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="1,0">
+     <item>
+      <widget class="frontViewDialog_autoexpand" name="frame_main" native="true">
+       <property name="styleSheet">
+        <string notr="true">QFrame#frame_main{
+background:white;
+}</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QFrame" name="frame_5">
+       <property name="outer_stylesheet" stdset="0">
+        <string>normal_view_color</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout" stretch="1,0,0">
+        <item>
+         <widget class="frontViewDialog_autoexpand" name="frame_list" native="true">
+          <property name="lineWidth" stdset="0">
+           <number>0</number>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_quit">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+font:bold 20pt;color:white;border:0px;background:#e7624e;
+}
+QPushButton:pressed{
+background:#dbe3e9;color:#7b7878;
+}
+</string>
+          </property>
+          <property name="text">
+           <string>退出</string>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>25</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="outer_stylesheet" stdset="0">
+           <string>pushbutton_blue</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_3">
+          <property name="styleSheet">
+           <string notr="true">QFrame#frame_3{
+border:2px solid white;
+}</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QGridLayout" name="gridLayout">
+           <property name="leftMargin">
+            <number>9</number>
+           </property>
+           <property name="topMargin">
+            <number>9</number>
+           </property>
+           <property name="rightMargin">
+            <number>9</number>
+           </property>
+           <property name="bottomMargin">
+            <number>9</number>
+           </property>
+           <property name="horizontalSpacing">
+            <number>6</number>
+           </property>
+           <property name="verticalSpacing">
+            <number>2</number>
+           </property>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label">
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>50</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background:rgb(219,96,76);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLabel" name="label_2">
+             <property name="text">
+              <string>正在使用</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_4">
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>50</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background:rgb(126,126,126);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLabel" name="label_3">
+             <property name="text">
+              <string>预定</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label_6">
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>50</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background:rgb(139,199,104);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QLabel" name="label_5">
+             <property name="text">
+              <string>未使用</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>lds_toolbar_button</class>
+   <extends>QPushButton</extends>
+   <header>lds_toolbar_button.h</header>
+  </customwidget>
+  <customwidget>
+   <class>frontViewDialog_autoexpand</class>
+   <extends>QWidget</extends>
+   <header>frontviewdialog_autoexpand.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

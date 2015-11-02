@@ -1,0 +1,394 @@
+/*======================================正常的按钮 begin====================================*/
+
+/*黄色渐变*/
+*[outer_stylesheet="pushbutton"]{
+background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop :0 rgba(255, 255, 255, 255), stop:0.8 rgba(229, 230, 230, 255), stop:1  rgba(229, 230, 230, 255));
+border:1px solid #ccc7c5;
+color:black;
+font-size:15t;
+}
+QPushButton[outer_stylesheet="pushbutton"]:pressed,
+QPushButton[outer_stylesheet="pushbutton"]:default
+{
+background:#fd624a;
+border:0px;
+}
+QPushButton[outer_stylesheet="pushbutton"]:disabled
+{
+background:gray;
+border:0px;
+}
+
+QPushButton[outer_stylesheet="pushbutton"]:pressed
+{
+color:white;
+}
+
+/*品红渐变*/
+QPushButton[outer_stylesheet="pushbutton_red"]{
+background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(255, 255, 255, 255), stop:1  red);
+border:1px solid #ccc7c5;
+color:black;
+font-size:15t;
+}
+QPushButton[outer_stylesheet="pushbutton_red"]:disabled,
+QPushButton[outer_stylesheet="pushbutton_red"]:pressed,
+QPushButton[outer_stylesheet="pushbutton_red"]:default{
+background:#fd624a;
+border:0px;
+}
+
+/*绿色渐变*/
+QPushButton[outer_stylesheet="pushbutton_green"]{
+background-color: qlineargradient(spread:reflect, x1:0.517, y1:0.682, x2:0.522227, y2:0.017, stop:0.318182 rgba(33, 121, 83, 255), stop:1 rgba(255, 255, 255, 255));
+border:1px;
+color:black;
+min-height:40px;
+
+}
+QPushButton[outer_stylesheet="pushbutton_green"]:disabled,
+QPushButton[outer_stylesheet="pushbutton_green"]:pressed,
+QPushButton[outer_stylesheet="pushbutton_green"]:default
+{
+        background-color: qlineargradient(spread:reflect, x1:0.517, y1:0.682, x2:0.522227, y2:0.017, stop:0.318182 red, stop:1 rgba(255, 255, 255, 255));
+}
+/*蓝色渐变*/
+*[outer_stylesheet="pushbutton_blue"]{
+background-color: #48a3fd;
+border:1px solid #ccc7c5;
+color:black;
+font-size:15t;
+}
+QPushButton[outer_stylesheet="pushbutton_blue"]:pressed,
+QPushButton[outer_stylesheet="pushbutton_blue"]:default
+{
+background:#fd624a;
+border:0px;
+}
+QPushButton[outer_stylesheet="pushbutton_blue"]:disabled
+{
+background:gray;
+border:0px;
+}
+
+QPushButton[outer_stylesheet="pushbutton_blue"]:pressed
+{
+color:white;
+}
+
+/*透明渐变*/
+QPushButton[outer_stylesheet="pushbutton_transparent"]{
+background-color: transparent;
+}
+QPushButton[outer_stylesheet="pushbutton_transparent"]:disabled{
+background-color: transparent;
+}
+/* 黄色平铺*/
+QPushButton[outer_stylesheet="pushbutton_plain_yellow"]{
+background-color:#f7c76a;
+border:1px;
+color:black;
+font-size:8pt;
+}
+QPushButton[outer_stylesheet="pushbutton_plain_yellow"]:pressed{
+background-color:rgba(255, 0, 57, 255);
+border:1px;
+}
+/*按钮向上的*/
+ QPushButton[outer_stylesheet="pushbutton_up"]{
+    background:qlineargradient(spread:reflect, x1:0, y1:0, x2:0, y2:1, stop:0 white, stop:1 #dbe3e9);
+    background-image: url(:/image/widgets_pic/upbtn_on.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    border:0px;
+    min-width:60px;
+    min-height:30px;
+    }
+    QPushButton[outer_stylesheet="pushbutton_up"]:pressed{
+    background:qlineargradient(spread:reflect, x1:0, y1:0, x2:0, y2:1, stop:0 white, stop:1 white);
+    background-image: url(:/image/widgets_pic/upbtn_on.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    }
+    QPushButton[outer_stylesheet="pushbutton_up"]:disabled{
+    background:qlineargradient(spread:reflect, x1:0, y1:0, x2:0, y2:1, stop:0 white, stop:1 #dbe3e9);
+    background-image: url(:/image/widgets_pic/upbtn_off.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    border:0px;
+    }
+    QPushButton[outer_stylesheet="pushbutton_up"]:disabled:pressed{
+    background:qlineargradient(spread:reflect, x1:0, y1:0, x2:0, y2:1, stop:0 white, stop:1 white);
+    background-image: url(:/image/widgets_pic/upbtn_off.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    }
+/*按钮向下的*/
+ QPushButton[outer_stylesheet="pushbutton_down"]{
+    background:qlineargradient(spread:reflect, x1:0, y1:0, x2:0, y2:1, stop:0 white, stop:1 #dbe3e9);
+    background-image: url(:/image/widgets_pic/downbtn_on.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    border:0px;
+    min-width:60px;
+    min-height:30px;
+    }
+    QPushButton[outer_stylesheet="pushbutton_down"]:pressed{
+    background:qlineargradient(spread:reflect, x1:0, y1:0, x2:0, y2:1, stop:0 white, stop:1 white);
+    background-image: url(:/image/widgets_pic/downbtn_on.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    }
+    QPushButton[outer_stylesheet="pushbutton_down"]:disabled{
+    background:qlineargradient(spread:reflect, x1:0, y1:0, x2:0, y2:1, stop:0 white, stop:1 #dbe3e9);
+    background-image: url(:/image/widgets_pic/downbtn_off.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    border:0px;
+    }
+    QPushButton[outer_stylesheet="pushbutton_down"]:disabled:pressed{
+    background:qlineargradient(spread:reflect, x1:0, y1:0, x2:0, y2:1, stop:0 white, stop:1 white);
+    background-image: url(:/image/widgets_pic/downbtn_off.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    }
+/*======================================正常的按钮 end====================================*/
+
+/*======================================前台的title begin====================================*/
+QLabel#label_qt_title{
+background-color: qlineargradient(spread:reflect, x1:0.517, y1:0.682, x2:0.522227, y2:0.017, stop:0.318182 rgba(33, 121, 83, 255), stop:1 rgba(255, 255, 255, 255));
+color:red;
+font-size:16pt;
+}
+/*======================================前台的title end====================================*/
+/*======================================calender selectgoods selectmembertypes begin====================================*/
+QPushButton#calender,
+QPushButton#selectgoods,
+QPushButton#selectmembertypes{
+background-color: qlineargradient(spread:reflect, x1:0.517, y1:0.682, x2:0.522227, y2:0.017, stop:0.318182 rgba(255,205,51), stop:1 rgba(255, 255, 255, 255));
+border:0px;
+color:black;
+}
+QPushButton#calender:default,
+QPushButton#selectgoods:default ,
+QPushButton#selectmembertypes:default {
+color:purple;
+}
+QPushButton#calender:!enabled ,
+QPushButton#selectgoods:!enabled ,
+QPushButton#selectmembertypes:!enabled {
+color:gray;
+}
+QPushButton#calender:pressed,
+QPushButton#selectgoods:pressed,
+QPushButton#selectmembertypes:pressed{
+background-color: qlineargradient(spread:reflect, x1:0.517, y1:0.682, x2:0.522227, y2:0.017, stop:0.318182 red, stop:1 rgba(255, 255, 255, 255));
+border:0px;
+}
+QFrame#calender,
+QFrame#selectgoods,
+QFrame#selectmembertypes{
+border: 2px solid purple;
+border-radius: 5px;
+background:lightblue;
+}
+QLineEdit#calender:no-frame,
+QLineEdit#selectgoods:no-frame,
+QLineEdit#selectmembertypes:no-frame{
+border: 2px solid red;
+}
+/*======================================calender selectgoods selectmembertypes end====================================*/
+
+QTabWidget{
+background:transparent;
+
+}
+QTabWidget QTabBar::tab{
+height:30px;
+background:transparent;
+}
+
+QTabWidget QTabBar::tab:selected{
+background:transparent;
+color:purple;
+font:bold;
+}
+QTabWidget::pane { /* The tab widget frame */
+border-top: 1px solid gray;
+}
+
+
+QTreeWidget::item:hover{
+background-color:rgb(0,255,0,50)
+}
+QTreeWidget::item:selected{
+background-color:rgb(255,0,0,100)
+}
+QLabel{color:black;
+}
+QLineEdit,
+QSpinBox,
+QTimeEdit{
+min-height:25px;
+min-width:30px;
+}
+QLineEdit:!enabled,
+QSpinBox:!enabled,
+QTimeEdit:!enabled{
+background:transparent;
+color:blue;
+border-style: none;
+}
+QTableView:!enabled,
+QHeaderView:!enabled{
+color:black;
+}
+
+/*======================================QSpinBox QTimeEdit begin====================================*/
+QSpinBox::up-button,
+QTimeEdit::up-button{
+subcontrol-origin: margin;
+subcontrol-position: bottom left;
+min-width:30px;
+min-height:32px;
+}
+QSpinBox::down-button,
+QTimeEdit::down-button{
+subcontrol-origin: margin;
+subcontrol-position: bottom right;
+min-width:30px;
+min-height:32px;
+}
+
+QSpinBox::up-button:!enabled,
+QTimeEdit::up-button:!enabled {
+width: 0px;
+border-style:none;
+}
+QSpinBox::down-button:!enabled,
+QTimeEdit::down-button:!enabled {
+width: 0px;
+border-style:none;
+}
+/*======================================QSpinBox QTimeEdit end====================================*/
+
+/*======================================QCheckBox  QRadioButton begin====================================*/
+QCheckBox::indicator:checked {
+image: url(:/image/widgets_pic/check_on.png);
+}
+
+QCheckBox::indicator:unchecked {
+image: url(:/image/widgets_pic/check_off.png);
+}
+QCheckBox::indicator:checked:!enabled {
+image: url(:/image/widgets_pic/disable_check_on.png);
+}
+
+QCheckBox::indicator:unchecked:!enabled {
+image: url(:/image/widgets_pic/disable_check_off.png);
+}
+
+QCheckBox::indicator {
+width: 20px;
+height: 20px;
+}
+
+QRadioButton::indicator:checked {
+image: url(:/image/widgets_pic/radio_on.png);
+}
+
+QRadioButton::indicator:unchecked {
+image: url(:/image/widgets_pic/radio_off.png);
+}
+QRadioButton::indicator:checked:!enabled {
+image: url(:/image/widgets_pic/disable_radio_on.png);
+}
+
+QRadioButton::indicator:unchecked:!enabled {
+image: url(:/image/widgets_pic/disable_radio_off.png);
+}
+/*======================================QCheckBox QRadioButton end====================================*/
+QPushButton::menu-indicator {
+width:26px;
+height:26px;
+subcontrol-position: right center;
+
+}
+QPushButton::menu-indicator:hover {
+width:26px;
+height:26px;
+subcontrol-position: right center;
+}
+/*======================================库存的样式begin====================================*/
+QFrame#inventory:!enabled{
+border:5px solid red;
+}
+/*======================================库存的样式end====================================*/
+
+/*======================================主界面-坐标菜单栏begin====================================*/
+QFrame#backview{
+font-size:12pt;
+/* font-weight: bold;*/
+font-family:”Arial“;
+}
+/*======================================主界面-坐标菜单栏end====================================*/
+
+/*======================================树状图 样式begin====================================*/
+QTreeWidget::item:selected {
+color:purple;
+font-size:15pt;
+}
+
+QTreeWidget::branch:has-children:!has-siblings:closed,
+QTreeWidget::branch:closed:has-children:has-siblings {
+border-image: none;
+image: url(:/image/widgets_pic/branch-closed.png);
+}
+
+QTreeWidget::branch:open:has-children:!has-siblings,
+QTreeWidget::branch:open:has-children:has-siblings  {
+border-image: none;
+image: url(:/image/widgets_pic/branch-open.png);
+}
+QTreeWidget::branch:has-siblings:adjoins-item {
+image: url(:/image/widgets_pic/branch-childclosed.png) 0;
+}
+QTreeWidget::branch:!has-children:!has-siblings:adjoins-item {
+image: url(:/image/widgets_pic/branch-childclosed.png) 0;
+}
+/*======================================树状图 样式end====================================*/
+
+/*======================================前台begin====================================*/
+QLabel[outer_stylesheet="pushbutton_pink"],
+QPushButton[outer_stylesheet="pushbutton_pink"]{border-radius:5px;background:#e7624e;border:0px;font:16pt;color:white;}
+QPushButton[outer_stylesheet="pushbutton_pink"]:pressed{background:#f7c76a;}
+
+QLabel[outer_stylesheet="pushbutton_yellow"],
+QPushButton[outer_stylesheet="pushbutton_yellow"]{border-radius:5px;background:#f7c76a;font:16pt;border:0px;color:brown;}
+QPushButton[outer_stylesheet="pushbutton_yellow"]:pressed{border:2px solid red;}
+
+QPushButton[outer_stylesheet="pushbutton_purple"]{border-radius:5px; border:2px solid #dadadb;background:#f3f5f5; font:14pt;color:#7b7878;}
+QPushButton[outer_stylesheet="pushbutton_purple"]:pressed{background:#f7c76a;color:red;}
+
+QPushButton[outer_stylesheet="pushbutton_bottom"]{background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop :0 white, stop :0.02 white, stop:0.02 rgb(69, 69, 69), stop:1  rgba(34, 38, 39));border-radius:2px;
+color: rgb(255, 255, 255);
+border:0px;
+}
+QPushButton[outer_stylesheet="pushbutton_bottom"]:pressed{background:#dbe3e9;color:#7b7878;}
+
+
+*[outer_stylesheet="normal_view_color"]{background-color: rgb(34, 38, 39);}
+
+/*======================================前台end====================================*/
+
+/*======================================酒楼选择餐桌begin====================================*/
+QPushButton[outer_stylesheet="pushbutton_jiulou"]{border-radius:3px; border:2px solid #dadadb;background:rgb(139,199,104); font:bold 12pt;color:white;}
+QPushButton[outer_stylesheet="pushbutton_jiulou"]:pressed{background:#f7c76a;}
+QPushButton[outer_stylesheet="pushbutton_jiuloulist"]{background:white;border:0px;border-bottom:1px solid rgb(34, 38, 39);font:12pt;color:#7b7878;}
+QPushButton[outer_stylesheet="pushbutton_jiuloulist"]:pressed{background:#f7c76a;}
+/*======================================酒楼选择餐桌end====================================*/
+/*======================================设置打印字体大小begin====================================*/
+QLineEdit[outer_stylesheet="lineedit_printsize"]{border:1px solid orangered;color:orangered;}
+/*======================================设置打印字体大小end====================================*/
+
+

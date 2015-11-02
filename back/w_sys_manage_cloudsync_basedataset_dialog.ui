@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>w_sys_manage_cloudsync_basedataset</class>
+ <widget class="QDialog" name="w_sys_manage_cloudsync_basedataset">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>637</width>
+    <height>343</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="Line" name="line_3">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>280</y>
+     <width>651</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>10</y>
+     <width>511</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label_77">
+      <property name="styleSheet">
+       <string notr="true">font:12pt;</string>
+      </property>
+      <property name="text">
+       <string>服务器IP：</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="yun_server_ip">
+      <property name="styleSheet">
+       <string notr="true">font:12pt;</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>300</y>
+     <width>511</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_6">
+    <item>
+     <widget class="QPushButton" name="pushButton_submit">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>91</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+font: 16pt ;
+background-color: rgb(0, 170, 0);
+color:white;
+border-radius:0px;
+}
+QPushButton:pressed {
+    background-color:rgb(85, 255, 127);
+   color:#D3D3D3;
+}</string>
+      </property>
+      <property name="text">
+       <string>确认</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_close">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>91</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+font: 16pt ;
+background-color:#F54180;
+color:white;
+border-radius:0px;
+}
+QPushButton:pressed {
+    background-color:#BC356C;
+   color:#D3D3D3;
+ }
+</string>
+      </property>
+      <property name="text">
+       <string>关闭</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>90</y>
+     <width>511</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <widget class="QLabel" name="label_79">
+      <property name="styleSheet">
+       <string notr="true">font:12pt;</string>
+      </property>
+      <property name="text">
+       <string>用户密码：</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="cloudPass">
+      <property name="styleSheet">
+       <string notr="true">font:12pt;</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>130</y>
+     <width>411</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_4">
+    <item>
+     <widget class="QLabel" name="label_80">
+      <property name="styleSheet">
+       <string notr="true">font:12pt;</string>
+      </property>
+      <property name="text">
+       <string>门店编码：</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="orgCode">
+      <property name="styleSheet">
+       <string notr="true">font:12pt;</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>50</y>
+     <width>511</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_78">
+      <property name="styleSheet">
+       <string notr="true">font:12pt;</string>
+      </property>
+      <property name="text">
+       <string>用户名称：</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="cloudUser">
+      <property name="styleSheet">
+       <string notr="true">font:12pt;</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_81">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>167</y>
+     <width>101</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color:purple;
+font:bold 15pt;</string>
+   </property>
+   <property name="text">
+    <string>功能设置:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_82">
+   <property name="geometry">
+    <rect>
+     <x>41</x>
+     <y>220</y>
+     <width>100</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color:purple;
+font:bold 15pt;</string>
+   </property>
+   <property name="text">
+    <string>开机设置:</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="first_boot_upload_data">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>250</y>
+     <width>231</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font:12pt;</string>
+   </property>
+   <property name="text">
+    <string>每天首次开机上传流水数据</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="sales_data_flag">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>190</y>
+     <width>211</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font:12pt;</string>
+   </property>
+   <property name="text">
+    <string>流水数据[销售营业]</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="membership_data_flag">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>190</y>
+     <width>181</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font:12pt;</string>
+   </property>
+   <property name="text">
+    <string>流水数据[会员营业]</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="first_boot_download_data">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>250</y>
+     <width>251</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font:12pt;</string>
+   </property>
+   <property name="text">
+    <string>每天首次开机下载基础数据</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_yun_member">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>190</y>
+     <width>201</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font:12pt;</string>
+   </property>
+   <property name="text">
+    <string>使用云会员</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_yun_start">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>250</y>
+     <width>101</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font:12pt;</string>
+   </property>
+   <property name="text">
+    <string>启动云端</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_usrcheck">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>130</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>91</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+font: 16pt ;
+background-color: rgb(0, 170, 0);
+color:white;
+border-radius:0px;
+}
+QPushButton:pressed {
+    background-color:rgb(85, 255, 127);
+   color:#D3D3D3;
+}
+QPushButton:disabled{
+background-color: gray;
+}</string>
+   </property>
+   <property name="text">
+    <string>用户验证</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>yun_server_ip</tabstop>
+  <tabstop>cloudUser</tabstop>
+  <tabstop>cloudPass</tabstop>
+  <tabstop>orgCode</tabstop>
+  <tabstop>membership_data_flag</tabstop>
+  <tabstop>sales_data_flag</tabstop>
+  <tabstop>first_boot_upload_data</tabstop>
+  <tabstop>first_boot_download_data</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

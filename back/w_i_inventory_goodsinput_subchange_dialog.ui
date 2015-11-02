@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>w_i_inventory_goodsinput_subchange_Dialog</class>
+ <widget class="QDialog" name="w_i_inventory_goodsinput_subchange_Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>272</width>
+    <height>266</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="1" column="1">
+      <widget class="lds_lineedit_selectedall" name="lineEdit_vch_dishname">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>编码</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="lds_selectgoods" name="widget_ch_dishno" native="true"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>名称</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>备注</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1">
+      <widget class="lds_lineedit_selectedall" name="lineEdit_vch_memo"/>
+     </item>
+     <item row="4" column="1">
+      <widget class="lds_lineedit_selectedall" name="lineEdit_subnum">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>数量(辅)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0" rowspan="2">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>赠送数量</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1" rowspan="2">
+      <widget class="lds_lineedit_selectedall" name="lineEdit_presentnum">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0" rowspan="2">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>单价</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1" rowspan="2">
+      <widget class="lds_lineedit_selectedall" name="lineEdit_price">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0" rowspan="2">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>数量(主)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1" rowspan="2">
+      <widget class="lds_lineedit_selectedall" name="lineEdit_mainnum">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="lds_toolbar" name="widget"/>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>lds_lineedit_selectedall</class>
+   <extends>QLineEdit</extends>
+   <header>lds_lineedit_selectedall.h</header>
+  </customwidget>
+  <customwidget>
+   <class>lds_toolbar</class>
+   <extends>QFrame</extends>
+   <header>lds_toolbar.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>lds_selectgoods</class>
+   <extends>QWidget</extends>
+   <header>lds_selectgoods.h</header>
+   <container>1</container>
+   <slots>
+    <signal>okstr1(QString)</signal>
+   </slots>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>widget_ch_dishno</sender>
+   <signal>okstr1(QString)</signal>
+   <receiver>lineEdit_vch_dishname</receiver>
+   <slot>setText(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>188</x>
+     <y>18</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>261</x>
+     <y>62</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lineEdit_mainnum</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>lineEdit_subnum</receiver>
+   <slot>setText(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>120</x>
+     <y>82</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>110</x>
+     <y>121</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
